@@ -1,0 +1,37 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'dIstant Head'
+
+[params]
+  subtitle = 'distant, thick, roundabout'
+  author = 'Inho Choi'
+
+[menu]
+  [[menu.main]]
+    name = 'About'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    name = 'C.V.'
+    url = '/cv/'
+    weight = 2
+  [[menu.main]]
+    name = 'Research'
+    url = '/research/'
+    weight = 3
+  [[menu.main]]
+    name = 'Publication'
+    url = '/publication/'
+    weight = 4
+  [[menu.main]]
+    name = 'Works in Progress'
+    url = '/works-in-progress/'
+    weight = 5
+  [[menu.main]]
+    name = 'Seminars'
+    url = '/seminars/'
+    weight = 6
+  [[menu.main]]
+    name = 'Sources and Tools'
+    url = '/sources-and-tools/'
+    weight = 7
