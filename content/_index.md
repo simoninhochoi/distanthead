@@ -2,6 +2,8 @@
 title: "About"
 ---
 
+![Inho Choi presenting at KNU Conference](/images/profile.jpeg)
+
 ## Inho Choi (최인호 / 崔仁虎)
 
 **Senior Research Fellow, Institute of International Studies, Seoul National University**
