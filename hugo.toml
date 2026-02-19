@@ -1,6 +1,6 @@
 baseURL = 'https://simoninhochoi.github.io/distanthead/'
 languageCode = 'en-us'
-title = 'dIstant Head'
+title = 'DistantHead'
 
 [params]
   subtitle = 'distant, thick, roundabout'
