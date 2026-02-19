@@ -1,0 +1,9 @@
+{{ define "main" }}
+<article class="content">
+  <h1>{{ .Title }}</h1>
+  <p class="cv-download"><a href="{{ "files/choi-cv.pdf" | relURL }}" target="_blank">Download PDF</a></p>
+  <div class="cv-embed">
+    <iframe src="{{ "files/choi-cv.pdf" | relURL }}" width="100%" height="800px" style="border: none;"></iframe>
+  </div>
+</article>
+{{ end }}

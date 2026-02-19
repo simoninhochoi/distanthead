@@ -1,6 +1,5 @@
 ---
 title: "C.V."
 url: "/cv/"
+layout: "cv"
 ---
-
-[Choi CV](/files/choi-cv.pdf)
