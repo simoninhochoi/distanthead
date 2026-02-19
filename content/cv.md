@@ -3,4 +3,4 @@ title: "C.V."
 url: "/cv/"
 ---
 
-[Download CV (PDF)](/files/Choi_CV.pdf)
+[Choi CV](/files/choi-cv.pdf)
