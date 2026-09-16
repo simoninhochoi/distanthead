@@ -407,10 +407,24 @@ section.band .module { box-shadow: 0 1px 3px rgba(27, 34, 39, 0.03); }
   font-family: 'Inter', monospace; color: var(--slate-dark);
   background: var(--slate-light); padding: 0.12rem 0.5rem; border-radius: 3px;
 }
-.cv-actions { margin-bottom: 1.2rem; display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
-.cv-embed iframe {
-  width: 100%; height: 42rem; border: 1px solid var(--line); border-radius: 5px;
-  background: var(--line-soft);
+/* The CV shows as rendered pages, not a browser PDF viewer, so the width is
+   the width of a sheet of paper rather than of the content column. */
+.cv-wrap { max-width: 34rem; margin: 0 auto; }
+.cv-actions { margin-bottom: 1.4rem; display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center; }
+.cv-download {
+  font-size: 0.82rem; font-weight: 600; letter-spacing: 0.02em;
+  color: var(--white); background: var(--slate); text-decoration: none;
+  padding: 0.42rem 1rem; border-radius: 4px; transition: background 0.18s;
+}
+.cv-download:hover { background: var(--slate-dark); }
+.cv-download::after { content: ' ↓'; }
+.cv-meta { font-size: 0.75rem; color: var(--faint); letter-spacing: 0.05em; }
+
+.cv-pages { display: grid; gap: 1rem; }
+.cv-page {
+  display: block; width: 100%; height: auto;
+  background: var(--white); border: 1px solid var(--line); border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(27, 34, 39, 0.07), 0 8px 22px rgba(27, 34, 39, 0.05);
 }
 
 /* ===== FOOTER ============================================================= */
@@ -456,7 +470,6 @@ footer .foot-legal { font-size: 0.73rem; color: var(--faint); margin-top: 0.5rem
   .profile { flex-direction: column; gap: 1.1rem; }
   .profile-frame img { width: 9rem; }
   .res-grid, .orient-grid, .stance-cols, .highlight-grid { grid-template-columns: 1fr; }
-  .cv-embed iframe { height: 32rem; }
 }
 
 @media (max-width: 480px) {
@@ -469,7 +482,8 @@ footer .foot-legal { font-size: 0.73rem; color: var(--faint); margin-top: 0.5rem
 }
 
 @media print {
-  header, .lang, footer .foot-nav, .cv-embed { display: none; }
+  header, .lang, footer .foot-nav, .cv-actions { display: none; }
   .hero { background: none; border-bottom: 1px solid #ccc; }
-  .pub, .res-card, .orient-card, .module, .wip { break-inside: avoid; }
+  .pub, .res-card, .orient-card, .module, .wip, .cv-page { break-inside: avoid; }
+  .cv-page { border: none; box-shadow: none; }
 }
