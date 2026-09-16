@@ -68,11 +68,13 @@
       <div>
         <div class="stance-kicker">{{ $s.ui.seminars_convened }}</div>
         <ol class="stance-list">
-          {{- range $sem.entries }}
+          {{- range $sem.sections }}
+          {{- range .entries }}
           <li>
             <a href="{{ $seminars.RelPermalink }}">{{ .heading }}</a>
             <span class="gloss">{{ .gloss }}</span>
           </li>
+          {{- end }}
           {{- end }}
         </ol>
       </div>

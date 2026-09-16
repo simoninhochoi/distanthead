@@ -29,7 +29,7 @@ static/files/         ← choi-cv.pdf
 | `research.yaml` | 연구 영역 5개(본문 + 진행 중인 갈래) |
 | `publications.yaml` | 게재 논문. `groups[].entries` 가 `entries[].id` 를 순서대로 참조 |
 | `wip.yaml` | 진행 중인 논문과 초록 |
-| `seminars.yaml` | 상설 세미나 |
+| `seminars.yaml` | 세미나와 소속. `sections[].entries[]` 두 겹이다 |
 | `resources.yaml` | 자료와 도구 링크 |
 | `cv.yaml` | 이력서 페이지 문구 |
 
@@ -96,6 +96,9 @@ python -m http.server 8099 --directory /tmp/preview
   로 고정되고, `--window-size=390` 을 줘도 485px 로 그린 화면을 390px 로 **잘라서** 저장한다.
   잘려 보이는 것은 레이아웃 버그가 아니다. 진짜 좁은 화면을 재려면 **390px iframe**
   안에 페이지를 띄우고 `documentElement.scrollWidth` 를 읽는다.
+- **nav 라벨이 길면 헤더가 두 줄로 접힌다.** 페이지 제목과 따로 짧은 라벨을 주려면
+  `content/*.md` 앞머리에 `nav_title` 을 쓴다(`세미나와 소속` → nav 는 `세미나`).
+  1100px 아래에서는 헤더가 알아서 세로로 쌓이므로 그 위 구간만 신경 쓰면 된다.
 - **언어 전환은 `.AllTranslations`** 로 돈다. 같은 페이지의 다른 언어판으로 가며
   홈으로 떨어지지 않는다. `content/x.md` 와 `content/x.ko.md` 의 **파일 이름이 짝을
   이룰 때만** 연결된다.

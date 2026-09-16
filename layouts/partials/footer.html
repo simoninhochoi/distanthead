@@ -4,7 +4,7 @@
   <div class="foot-nav">
     <a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Home.Title }}</a>
     {{- range .Site.RegularPages.ByWeight }}
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    <a href="{{ .RelPermalink }}">{{ with .Params.nav_title }}{{ . }}{{ else }}{{ .Title }}{{ end }}</a>
     {{- end }}
   </div>
   <div>{{ $s.footer_line }}</div>

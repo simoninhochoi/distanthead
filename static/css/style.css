@@ -160,7 +160,7 @@ nav.main .lang a.current { background: var(--slate); color: var(--white); }
 /* Noto Serif KR at 600 reads lighter than Spectral at 600, so the Korean
    display face is set one step heavier to keep the same weight on screen. */
 :lang(ko) .hero h1, :lang(ko) .section-title, :lang(ko) .module h3,
-:lang(ko) .orient-card h3, :lang(ko) .wip-head h3, :lang(ko) .res-group h3,
+:lang(ko) .orient-card h3, :lang(ko) .wip-head h3, :lang(ko) .res-group > h3,
 :lang(ko) .profile-name { font-weight: 700; }
 
 /* ===== SECTIONS =========================================================== */
@@ -285,7 +285,7 @@ section.band .module { box-shadow: 0 1px 3px rgba(27, 34, 39, 0.03); }
 .module .areas li .venue { color: var(--muted); font-style: italic; }
 
 /* ===== ORIENTATION CARDS (seminars) ======================================= */
-.orient-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(22rem, 100%), 1fr)); gap: 1.1rem; margin-top: 1.5rem; }
+.orient-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(22rem, 100%), 1fr)); gap: 1.1rem; margin-top: 1.5rem; }
 .orient-card {
   background: var(--white); border: 1px solid var(--line);
   border-radius: 7px; padding: 1.5rem 1.6rem; transition: box-shadow 0.2s, transform 0.2s;
@@ -361,7 +361,7 @@ section.band .module { box-shadow: 0 1px 3px rgba(27, 34, 39, 0.03); }
 /* ===== RESOURCES ========================================================== */
 .res-group { margin-bottom: 2.4rem; }
 .res-group:last-child { margin-bottom: 0; }
-.res-group h3 {
+.res-group > h3 {
   font-family: var(--font-serif); font-size: 1.1rem; font-weight: 600; color: var(--ink);
   padding-bottom: 0.5rem; border-bottom: 1px solid var(--line); margin-bottom: 1rem;
 }

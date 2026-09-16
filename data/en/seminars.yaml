@@ -1,44 +1,77 @@
-title: Seminars
-kicker: Four standing groups
+title: Seminars and Affiliations
+kicker: Five groups and an affiliation
 lede: >-
-  Two on the deep history of the East Asian order, two on the orders now forming.
+  Three of the groups read the East Asian past, two the orders now forming.
 
-entries:
-  - heading: US–China Relations Seminar
-    kicker: Monthly
-    gloss: Middle powers as steerers rather than bystanders in the superpower rivalry.
-    body: >-
-      A monthly seminar exploring how middle powers can move beyond the role of
-      passive bystanders in US–China relations and actively steer the superpower
-      rivalry toward outcomes that serve the broader global order.
-    tags: [Monthly, Contemporary]
+sections:
+  - heading: Seminars
+    entries:
+      - heading: US–China Relations Seminar
+        kicker: Monthly
+        gloss: Middle powers as steerers rather than bystanders in the superpower rivalry.
+        body: >-
+          A monthly seminar exploring how middle powers can move beyond the role
+          of passive bystanders in US–China relations and actively steer the
+          superpower rivalry toward outcomes that serve the broader global order.
+        tags: [Monthly, Contemporary]
 
-  - heading: Circle of the Fish
-    kicker: Working group
-    gloss: East Asian international order, past and present.
-    body: >-
-      A working group on studies of the East Asian international order in the
-      past and the present.
-    url: https://circle-of-fish.github.io/
-    url_label: Group website
-    tags: [Working group, Historical]
+      - heading: Circle of the Fish
+        kicker: Working group
+        gloss: East Asian international order, past and present.
+        body: >-
+          A working group on studies of the East Asian international order in the
+          past and the present.
+        url: https://circle-of-fish.github.io/
+        url_label: Group website
+        tags: [Working group, Historical]
 
-  - heading: Research Group on Korean Diplomatic History
-    kicker: Monthly since 2012
-    gloss: Global diplomatic history of the Korean peninsula, fifth to nineteenth century.
-    body: >-
-      A monthly seminar group on the global diplomatic history of the Korean
-      peninsula from the fifth century to the nineteenth.
-    tags: [Monthly, Historical]
+      - heading: East Asian Intellectual History Reading Group
+        kicker: Monthly since 2024
+        gloss: East Asian political thought and intellectual history, read for new methods.
+        body: >-
+          An interdisciplinary reading group on the political thought and
+          intellectual history of East Asia, working toward new methodological
+          approaches. Sessions have run from late Chosŏn intellectual history and
+          Ming–Qing rural society to Sino-Korean tributary relations, modern
+          Korea–China relations, and the trusteeship question after 1945. Seven
+          researchers from Seoul National University, Cambridge, and Yonsei meet
+          monthly at the Institute of International Studies, Seoul National
+          University.
+        url: https://ea-intellectual-history.github.io/
+        url_label: Group website
+        tags: [Monthly, Historical]
 
-  - heading: AI and Future of the Earth
-    kicker: Reading group
-    gloss: What hybrid intelligence does to the state system and to planetary stewardship.
-    body: >-
-      A philosophical and political inquiry into how the rise of artificial
-      intelligence is transforming the foundations of global order. As human and
-      machine cognition become increasingly entangled, this seminar examines what
-      the emergence of hybrid intelligence means for two pillars of the modern
-      world: the sovereign state system built on human political agency, and the
-      planetary order premised on humanity's unique stewardship of the Earth.
-    tags: [Reading group, Contemporary]
+      - heading: Research Group on Korean Diplomatic History
+        kicker: Monthly since 2012
+        gloss: Global diplomatic history of the Korean peninsula, fifth to nineteenth century.
+        body: >-
+          A monthly seminar group on the global diplomatic history of the Korean
+          peninsula from the fifth century to the nineteenth.
+        tags: [Monthly, Historical]
+
+      - heading: AI and Future of the Earth
+        kicker: Reading group
+        gloss: What hybrid intelligence does to the state system and to planetary stewardship.
+        body: >-
+          A philosophical and political inquiry into how the rise of artificial
+          intelligence is transforming the foundations of global order. As human
+          and machine cognition become increasingly entangled, this seminar
+          examines what the emergence of hybrid intelligence means for two
+          pillars of the modern world: the sovereign state system built on human
+          political agency, and the planetary order premised on humanity's unique
+          stewardship of the Earth.
+        tags: [Reading group, Contemporary]
+
+  - heading: Affiliations
+    entries:
+      - heading: EAI Global
+        kicker: Regular contributor
+        gloss: Policy analysis on Northeast Asian security from regional perspectives.
+        body: >-
+          The East Asia Institute's English-language platform, which publishes
+          issue reports, commentary, and working papers on global affairs from
+          regional perspectives. I contribute regularly, mostly on Northeast
+          Asian security and North Korea.
+        url: https://global.eai.or.kr/
+        url_label: EAI Global
+        tags: [East Asia Institute]
