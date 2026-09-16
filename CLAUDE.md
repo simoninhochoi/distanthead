@@ -13,7 +13,8 @@ data/en/ · data/ko/   ← 페이지 내용의 정본. 여기만 고치면 양�
 content/*.md          ← 제목·nav 순서(weight)·레이아웃만 담은 껍데기. 본문 없음
 layouts/              ← Hugo 템플릿. 내용은 들어가지 않는다
 static/css/style.css  ← 스타일시트 전부(단일 파일)
-static/img/           ← roundabout.svg(히어로 모티프) · favicon.svg
+static/img/           ← network.svg(히어로 모티프) · favicon.svg — 둘 다 생성물이다
+_build/               ← make_hero_motif.py. 위 두 SVG 를 만든다. 손으로 고치지 말 것
 static/files/         ← choi-cv.pdf
 .github/workflows/    ← main 에 push 하면 Hugo 0.142.0 으로 빌드해 Pages 로 발행
 ```
@@ -33,6 +34,24 @@ static/files/         ← choi-cv.pdf
 
 두 언어의 **키 구조는 반드시 같아야 한다.** 한쪽에만 키를 더하면 다른 언어에서
 `StrictUndefined` 가 아니라 빈칸으로 조용히 새어 나간다.
+
+## 히어로 배경
+
+`static/img/network.svg` 는 손으로 그린 것이 아니라 **`Projects/3d-network-sculpture`
+의 조형물 기하에서 뽑은 것**이다. 렌더 PNG 를 따지 않고 `prims_v3_150mm.json`
+(실린더 391·구 226·토러스 6)을 직접 투영해 단순화한다 — 겉껍질의 대원(大圓),
+솎아낸 안쪽 가새, 마디 몇 개. 파비콘은 같은 기하를 16px 에서 읽히는 데까지 줄인 것이다.
+
+```bash
+python _build/make_hero_motif.py              # static/img/network.svg
+python _build/make_hero_motif.py --favicon    # static/img/favicon.svg
+python _build/make_hero_motif.py --az 40 --el 8   # 시점 바꾸기
+```
+
+- **파비콘에서 넓은 고리 셋을 고르면 안 된다** — 셋 다 정면이라 찌그러진 원 하나로 보인다.
+  가장 정면인 고리 하나 + 가장 옆면인 고리 둘이라야 혼천의 형태가 된다.
+- 조형물 폴더 경로가 스크립트 안에 절대경로로 박혀 있다. 그 폴더가 없으면 돌지 않지만,
+  **SVG 는 저장소에 커밋되어 있으므로 빌드에는 지장이 없다.**
 
 ## 빌드
 
