@@ -1,0 +1,322 @@
+% Curriculum vitae — Inho Choi
+% Source of record for static/files/choi-cv.pdf. Build with:
+%     xelatex -output-directory=_build/cv _build/cv/choi-cv.tex
+%     cp _build/cv/choi-cv.pdf static/files/choi-cv.pdf
+% TeX Gyre Termes ships with TeX Live, so this needs no system fonts and
+% renders the Latin Extended letters the East Asian names use (Chosŏn).
+
+\documentclass[11pt]{article}
+
+\usepackage[letterpaper,top=0.9in,bottom=0.9in,left=1in,right=1in]{geometry}
+\usepackage{fontspec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+
+\setmainfont{TeX Gyre Termes}
+\linespread{1.02}
+\setlength{\parindent}{0pt}
+\pagestyle{empty}
+
+% ---- structure ------------------------------------------------------------
+% A section head: small-caps, a rule under it, air above.
+\newcommand{\cvsection}[1]{%
+  \vspace{1.0em}%
+  {\bfseries\scshape #1}\par
+  \vspace{0.25em}\hrule height 0.5pt\vspace{0.7em}}
+
+% A subsection inside a section (Peer-Reviewed Articles, Methodology, …).
+\newcommand{\cvsub}[1]{\vspace{0.5em}{\itshape #1}\par\vspace{0.35em}}
+
+% One line with the date pushed to the right margin.
+\newcommand{\dated}[2]{#1\hfill #2\par}
+
+% An employment or education block: organisation, then indented roles.
+\newenvironment{roles}{\vspace{0.15em}\begin{list}{}{%
+  \setlength{\leftmargin}{1.5em}\setlength{\itemsep}{0pt}%
+  \setlength{\parsep}{0pt}\setlength{\topsep}{0pt}}\item[]}{\end{list}}
+
+% Push a year to the right margin, letting it drop to its own right-aligned
+% line when the text runs to the edge. A bare \hfill has no room to expand
+% there and the year ends up welded to the last word (Hawaii Press.forthcoming).
+\newcommand{\rightdate}[1]{%
+  \unskip\nobreak\hfil\penalty50\hskip1.5em\null\nobreak\hfil #1%
+  \parfillskip=0pt \finalhyphendemerits=0 \par}
+
+% A flowing entry (a publication, a talk) with a hanging indent and a year.
+\newenvironment{hang}{%
+  \begin{list}{}{\setlength{\leftmargin}{1.5em}\setlength{\itemindent}{-1.5em}%
+    \setlength{\itemsep}{0pt}\setlength{\parsep}{0pt}\setlength{\topsep}{0pt}}%
+  \item[]}{\end{list}\vspace{0.35em}}
+\newcommand{\bibentry}[2]{\begin{hang}#1\rightdate{#2}\end{hang}}
+\newcommand{\bibplain}[1]{\begin{hang}#1\end{hang}}
+
+\begin{document}
+
+% ---- masthead -------------------------------------------------------------
+\begin{center}
+  {\LARGE\bfseries Inho Choi}
+\end{center}
+\vspace{0.7em}
+
+\begin{minipage}[t]{0.56\textwidth}
+Department of Political Science and Diplomacy\\
+Kyonggi University\\
+Suwon, South Korea
+\end{minipage}%
+\begin{minipage}[t]{0.44\textwidth}
+\raggedleft
+\href{mailto:inho.choi86@gmail.com}{inho.choi86@gmail.com}\\
++82 10 2809 0257\\
+\href{https://orcid.org/0000-0003-2826-5775}{orcid.org/0000-0003-2826-5775}
+\end{minipage}
+
+% ---- employment -----------------------------------------------------------
+\cvsection{Employment}
+
+Department of Political Science and Diplomacy, Kyonggi University, Korea
+\begin{roles}\dated{Assistant Professor}{Sep 2026 -- present}\end{roles}
+
+\vspace{0.45em}
+Institute of International Studies at Seoul National University, Korea
+\begin{roles}\dated{Senior Researcher}{Aug 2024 -- Aug 2026}\end{roles}
+
+\vspace{0.45em}
+Department of Political Science and IR at Seoul National University, Korea
+\begin{roles}\dated{Adjunct Lecturer}{Mar 2025 -- Aug 2026}\end{roles}
+
+\vspace{0.45em}
+Department of International Relations, Bilkent University
+\begin{roles}\dated{Assistant Professor}{Sep 2023 -- Jun 2024}\end{roles}
+
+\vspace{0.45em}
+University of Southern California and Berggruen Institute
+\begin{roles}\dated{USC-Berggruen Fellow}{2022--2023}\end{roles}
+
+% ---- education ------------------------------------------------------------
+\cvsection{Education}
+
+Johns Hopkins University, United States
+\begin{roles}
+\dated{Ph.D. Political Science}{Aug 26, 2022}
+Fields: International Relations, Political Theory\\
+Affiliation: East Asian Studies\\
+Dissertation: \textit{Virtue Rules: The Evolution of the Virtue of State in East Asian\\
+International Orders}\\
+Committee: Daniel Deudney, Sebastian Schmidt, Erin Chung,\\
+Clara Han, Youngmin Kim
+\end{roles}
+
+\vspace{0.45em}
+Seoul National University, South Korea
+\begin{roles}
+\dated{Ph.D. Student, International Relations (transferred)}{2014--2015}
+\dated{M.A. International Relations}{Feb 26, 2013}
+\dated{B.A. Political Science, Summa Cum Laude}{Feb 25, 2011}
+\end{roles}
+
+\vspace{0.45em}
+University of British Columbia, Canada
+\begin{roles}
+\dated{Undergraduate Exchange Student, Department of Political Science}{2006--2007}
+\end{roles}
+
+% ---- interests ------------------------------------------------------------
+\cvsection{Research Interests}
+
+East Asian International Orders, International Relations Theory, Global
+International Relations, Chinese Grand Strategy, International Politics of
+Artificial Intelligence, Diplomatic History
+
+% ---- publications ---------------------------------------------------------
+\cvsection{Publications}
+
+\cvsub{Peer-Reviewed Articles}
+
+\bibentry{Historical Intersections of Climatic Change and Power Transitions:
+Ecological Pressure, Balance of Adaptability, and the U.S.-China Power
+Transition in the Anthropocene, \textit{International Relations of the
+Asia-Pacific}.}{forthcoming}
+
+\bibentry{Non-Western Interpolity Orders and Sociocultural Forces: The Shi in
+the Early Modern East Asian Order, \textit{Chinese Journal of International
+Politics}, Vol.~18, No.~4: 496--519.}{2025}
+
+\bibentry{Ontological Complexity of Interpolity Orders: The Encounter between
+Chosŏn and Tibet in Qing, \textit{European Journal of International Relations},
+Vol.~31, No.~1: 28--52 (with Minju Kwon).}{2025}
+
+\bibentry{International Relations of Encountering the Other: Aim, Theory, and
+Methodology, \textit{Korean Journal of International Politics}, Vol.~64,
+No.~4: 7--49 [In Korean].}{2024}
+
+\bibentry{Planetary Order for the Anthropocene: Republic of the Noosphere,
+\textit{Korean Political Science Review}, Vol.~58, No.~4: 5--26 [In
+Korean].}{2024}
+
+\bibentry{On Being Chinese and Being Complexified: Chinese IR as a
+Transcultural Project, \textit{Review of International Studies}, Vol.~49,
+No.~3: 471--490.}{2023}
+
+\bibentry{International Theory of Serving the Great: 1636 Qing Invasion of
+Chosŏn as a Future-Passed, \textit{Korean Journal of International Politics},
+Vol.~63, No.~1: 43--86 [In Korean].}{2023}
+
+\bibentry{`Chinese' Hegemony from a Korean Shi Perspective: Aretocracy in the
+Early Modern East Asia, \textit{International Relations of the Asia-Pacific},
+Vol.~22, No.~3: 347--374.}{2022}
+
+\cvsub{Book Chapters}
+
+\bibentry{Neo-Confucianism as Cosmopolitan Democracy, in Roger T. Ames and Jae
+Young Lee, eds., \textit{Beyond the Nation-State: From Geopolitical Discourse
+to Civilizational Dialogues}, University of Hawaii Press.}{forthcoming}
+
+% ---- under review ---------------------------------------------------------
+\cvsection{Papers Under Review}
+
+\bibentry{From Constitutional Norms to Constitutional Heritage: Rethinking
+Culture in International Orders, \textit{International Theory}.}{}
+
+\bibentry{AI and the Closed State: North Korea's Encounter with Artificial
+Intelligence, \textit{Pacific Affairs}.}{}
+
+% ---- presentations --------------------------------------------------------
+\cvsection{Presentations}
+
+\bibentry{``Institutionalization of Sino-Korean Tributary Relations,''
+16th Kyujanggak International Symposium on Korean Studies, Seoul}{2023}
+
+\bibentry{``Neo-Confucianism as Cosmopolitan Democracy,''
+Berggruen Institute Tianxia IV Conference, Singapore}{2023}
+
+\bibentry{``Neo-Confucianism as Cosmopolitan Democracy,''
+American Political Science Association 119th Annual Convention, Los Angeles}{2023}
+
+\bibentry{``Why is There No Modern International Order: Persistence of
+Polycentric Space in East Asia,'' International Studies Association Virtual
+Conference}{2023}
+
+\bibentry{``Power Shift in the Critical Zone,''
+International Studies Association Asia-Pacific Region Conference, Tokyo}{2023}
+
+\bibentry{``Polycentric Spatial Order and its Change,''
+16th International Congress for Eighteenth-Century Studies, Rome}{2023}
+
+\bibentry{``Why is There No Modern International Order: Persistence of
+Polycentric Space in East Asia,'' British International Studies Association
+Annual Conference, Glasgow}{2023}
+
+\bibentry{``Ontological Complexity of Interpolity Orders: The Encounter of
+Chosŏn and Tibet in Qing,'' International Studies Association 64th Annual
+Convention, Montreal}{2023}
+
+\bibentry{``International Theory of Serving the Great: 1636 Qing Invasion of
+Korea as a Future-Passed,'' Korean Association of International Studies Annual
+Conference, Seoul}{2022}
+
+\bibentry{``Recrafting Political Fiction in the Anthropocene: From Leviathan to
+the Eight Steps,'' USC Berggruen Fellows Lecture Series, Los Angeles}{2022}
+
+\bibentry{``An East Asian Genealogy of the Modern International Order,''
+International Studies Association 63th Annual Convention, Nashville}{2022}
+
+% ---- groups ---------------------------------------------------------------
+\cvsection{Research Groups}
+
+\dated{US-China Relations Research Group}{02/2026--present}
+\dated{Complex Intelligence Research Group}{2025--present}
+\dated{Intellectual History and East Asian International Relations}{07/2024--present}
+\dated{Working Group on the Theory and History of East Asian International Relations}{08/2020--present}
+\dated{Monthly Seminar of Research Group on Korean Diplomatic History}{09/2012--present}
+
+% ---- grants ---------------------------------------------------------------
+\cvsection{Research Grants}
+
+\bibentry{Taejae Future Strategy Institute Research Grant: Establishing
+Evaluation Criteria for Elected Officials (Co-Researcher)}{02/2026--present}
+
+\bibentry{Tongil and Nanum Foundation Planning Research Grant: New Unification
+Vision in the Age of AI (Co-Researcher)}{09/2025--present}
+
+\bibentry{SNU Asia Institute Grant for International Collaboration Research:
+Political Theory of Artificial Intelligence (PI)}{AY2025--present}
+
+\bibentry{Korean National Research Foundation Research Professor Grant
+(PI)}{AY2024--present}
+
+\bibentry{Research Institute for Korean Studies Grant
+(Co-Researcher)}{AY2023--present}
+
+% ---- honors ---------------------------------------------------------------
+\cvsection{Honors}
+
+\dated{Charles Lathrop Pack Award}{2019}
+\dated{Departmental Funding for the IQMR}{2017}
+\dated{Fulbright Graduate Study Award}{AY2015--2017}
+\dated{Seoul National University Scholarship for Foundational Research Environment}{AY2014--2015}
+\dated{Kwanjeong Educational Foundation Academic Fellowship}{2011--2012}
+
+% ---- training -------------------------------------------------------------
+\cvsection{Specialized Training}
+
+\cvsub{Methodology}
+
+\bibentry{Consortium for Qualitative Research Methods, The Institute for
+Qualitative and Multi-Method Research (IQMR)}{2017}
+
+\cvsub{Asian Studies and Languages}
+
+\bibentry{Jangseogak Classical Chinese Summer Workshop, Academy of Korean
+Studies, Korea}{2018}
+
+\bibentry{Seminar on Reading Qing Documents with Professor Tobie Meyer-Fong,
+The Department of History at Johns Hopkins University}{2017}
+
+\bibentry{Seminar on Translating Four Books (Classical Chinese) with Professor
+Youngmin Kim, The Department of Political Science at Seoul National University,
+Korea}{2014--2015}
+
+\bibentry{East Asia Institute Seminar in Contemporary World Politics,
+Korea}{2014}
+
+\bibentry{Seminar on Reading Four Books with Professor Il-Kyun Jeong, The
+Department of Sociology at Seoul National University, Korea}{2012--2015}
+
+\bibentry{Intersession Institute for Chinese, Peking Normal University,
+China}{2007}
+
+\cvsub{Pedagogy}
+
+\bibentry{Johns Hopkins Teaching Academy, Teaching Institute (12 workshop
+sessions), Certificate of Completion}{2021}
+
+% ---- languages ------------------------------------------------------------
+\cvsection{Languages}
+
+Korean (native); Classical Chinese; Mandarin Chinese (basic listening and
+speaking, medium-level reading); Japanese (basic listening, speaking, and
+reading)
+
+% ---- references -----------------------------------------------------------
+\cvsection{References}
+
+\begin{minipage}[t]{0.5\textwidth}
+\textbf{Daniel Deudney}\\
+Professor, Political Science\\
+Johns Hopkins University\\
++1 (215) 880-8461\\
+\href{mailto:ddeudney@jhu.edu}{ddeudney@jhu.edu}
+\end{minipage}%
+\begin{minipage}[t]{0.5\textwidth}
+\textbf{Sebastian Schmidt}\\
+Assistant Professor, Political Science\\
+Johns Hopkins University\\
++1 (410) 516-7540\\
+\href{mailto:sschmi27@jhu.edu}{sschmi27@jhu.edu}
+\end{minipage}
+
+\vspace{1.4em}
+{\footnotesize\itshape Updated: September 2026}
+
+\end{document}

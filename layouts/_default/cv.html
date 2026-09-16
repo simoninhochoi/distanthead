@@ -11,27 +11,13 @@
 {{- $d := index .Site.Data .Site.Language.Lang -}}
 {{- $s := $d.site -}}
 {{- $c := $d.cv -}}
-{{- $cv := .Site.Data.cv_pages -}}
 <section>
-  <div class="container">
-    <div class="cv-wrap">
-      <div class="cv-actions">
-        <a class="cv-download" href="{{ "files/choi-cv.pdf" | relURL }}" download>{{ $c.download }}</a>
-        <span class="cv-meta">{{ printf $c.meta $cv.count $cv.pdf_kb }}</span>
-        <a class="badge badge-doi" href="https://orcid.org/{{ $s.orcid }}" rel="noopener">ORCID {{ $s.orcid }}</a>
-      </div>
-      {{- /* Rendered pages rather than a browser PDF viewer: the viewer arrives
-             as a dark panel that fights the page, and shows nothing at all on
-             iOS. Regenerate with _build/make_cv_preview.py. */}}
-      <div class="cv-pages">
-        {{- range $i, $pg := $cv.pages }}
-        <img class="cv-page" src="{{ $pg.file | relURL }}"
-             width="{{ $pg.width }}" height="{{ $pg.height }}"
-             alt="{{ printf $c.page_alt (add $i 1) }}"
-             {{ if $i }}loading="lazy" {{ end }}decoding="async">
-        {{- end }}
-      </div>
+  <div class="container narrow">
+    <div class="cv-actions">
+      <a class="cv-download" href="{{ "files/choi-cv.pdf" | relURL }}" download>{{ $c.download }}</a>
+      <a class="badge badge-doi" href="https://orcid.org/{{ $s.orcid }}" rel="noopener">ORCID {{ $s.orcid }}</a>
     </div>
+    <p class="note">{{ $c.note | safeHTML }}</p>
   </div>
 </section>
 {{ end }}

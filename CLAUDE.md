@@ -54,18 +54,24 @@ python _build/make_hero_motif.py --az 40 --el 8   # 시점 바꾸기
 - 조형물 폴더 경로가 스크립트 안에 절대경로로 박혀 있다. 그 폴더가 없으면 돌지 않지만,
   **SVG 는 저장소에 커밋되어 있으므로 빌드에는 지장이 없다.**
 
-## 이력서 지면
+## 이력서
 
-브라우저 PDF 뷰어를 `iframe` 으로 끼우면 어두운 패널이 페이지와 따로 놀고, iOS 에서는
-아예 아무것도 뜨지 않는다. 그래서 지면을 **미리 이미지로 렌더해** 본문에 얹는다.
-JavaScript 가 필요 없고 어디서나 뜨며, PDF 는 내려받기 단추로 한 번에 간다.
+이력서 페이지는 **PDF 링크 하나**다. 브라우저 PDF 뷰어를 `iframe` 으로 끼우면 어두운
+패널이 페이지와 따로 놀고 iOS 에서는 아무것도 뜨지 않으며, 지면을 이미지로 미리 렌더하는
+방식은 PDF 를 갈 때마다 다시 뽑아야 해서 묵은 이력서가 남는다. 둘 다 접었다.
+
+**PDF 의 정본은 `_build/cv/choi-cv.tex` 다.** 내용을 고치면 다시 조판해서 복사한다.
 
 ```bash
-python _build/make_cv_preview.py    # static/img/cv/page-N.png + data/cv_pages.yaml
+xelatex -output-directory=_build/cv _build/cv/choi-cv.tex   # 두 번 돌린다(상호참조)
+cp _build/cv/choi-cv.pdf static/files/choi-cv.pdf
 ```
 
-폭 1400px 회색조 팔레트 PNG 로 뽑아 화면에서는 816px 로 보인다(약 1.7배 밀도).
-3면 합계 390KB 남짓이고 둘째 면부터는 `loading="lazy"` 다.
+- 본문 글꼴은 **TeX Gyre Termes**다. TeX Live 에 딸려 오므로 시스템 글꼴에 기대지 않고,
+  Chosŏn 의 ŏ 같은 라틴 확장 문자도 그대로 낸다.
+- **오른쪽 끝 연도는 `\rightdate`** 로 붙인다. 맨 `\hfill` 은 본문이 오른쪽 여백까지
+  차면 벌어질 자리가 없어 연도가 마지막 낱말에 들러붙는다(`Hawaii Press.forthcoming`).
+- 같은 내용의 마크다운본이 `Projects/Jobs/Choi_CV.md` 에도 있다. **한쪽만 고치면 갈라진다.**
 
 ## 빌드
 

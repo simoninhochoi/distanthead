@@ -3,5 +3,4 @@ kicker: Curriculum Vitae
 lede: >-
   경력과 학력, 게재 논문, 발표, 연구비와 수련 과정을 한 편의 PDF로 정리했다.
 download: PDF 내려받기
-meta: "%d면 · %d KB"
-page_alt: 이력서 %d면
+note: PDF 파일로 받아 보면 된다. 짧은 소개는 <a href="../">소개</a>에 있다.

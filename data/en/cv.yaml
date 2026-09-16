@@ -4,5 +4,4 @@ lede: >-
   Employment, education, publications, presentations, grants, and training, in
   one PDF.
 download: Download PDF
-meta: "%d pages · %d KB"
-page_alt: Curriculum vitae, page %d
+note: The PDF opens in whatever you read PDFs with. For the short version, see <a href="../">About</a>.

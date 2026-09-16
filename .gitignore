@@ -14,3 +14,8 @@ Thumbs.db
 # Python
 __pycache__/
 *.pyc
+
+# LaTeX build products
+_build/cv/*.aux
+_build/cv/*.log
+_build/cv/*.out
