@@ -1,0 +1,84 @@
+title: DistantHead
+title_sub: 멀리서, 두텁게, 에둘러
+
+name: 최인호
+name_alt: Inho Choi · 崔仁虎
+role: 조교수
+institution: 경기대학교
+affiliation: <span class="inst">경기대학교 정치외교학전공</span><br>조교수
+degree: 미국 존스홉킨스대학교 정치학 박사
+email: inho.choi86@gmail.com
+orcid: 0000-0003-2826-5775
+
+meta_description: >-
+  최인호는 경기대학교 정치외교학전공 조교수다. 동아시아 국제질서, 미중 경쟁,
+  중견국 전략, 행성질서, 인공지능의 국제정치를 연구한다.
+
+footer_line: 경기대학교 정치외교학전공
+
+hero:
+  tagline: >-
+    가장 가까운 것에 이르는 길은 멀리 떨어져, 두텁게, 에둘러 나 있다.
+  description: >-
+    동아시아의 오래된 역사가 지금 형성되고 있는 국제질서에 어떻게 닿아 있는지를
+    묻는 연구를 모아 둔 곳이다. 미중 경쟁, 그 사이에 놓인 중견국, 인류세의
+    행성질서, 그리고 인공지능이 갖추어 가고 있는 정치적 형식이 그 대상이다.
+
+about:
+  title: 소개
+  kicker: 쓰는 사람
+  photo_alt: 학술회의에서 발표하는 최인호
+  body:
+    - >-
+      동아시아의 오래된 역사가 오늘의 안보 동학을 어떻게 규정하는지를, 특히
+      미중관계를 중심으로 연구한다. 중국의 전략 행위는 도덕적 패권에서 실용적
+      타협에 이르는 복합적인 역사적 경세 전통의 목록에 기대어 있으며, 그 목록은
+      오늘도 선별적으로 재구성되고 있다. 이 역사적 깊이를 동아시아 안보를
+      조직하는 물음들에 끌어들인다. 중국의 대전략을 움직이는 것은 무엇인가.
+      한국과 같은 중견국은 미중 경쟁을 어떻게 항해해야 하는가. 그리고 경합하는
+      문명적 세계상들은 하나의 안정된 국제질서 안에 공존할 수 있는가.
+    - >-
+      두 번째 갈래는 같은 종류의 물음을 지나간 질서가 아니라 지금 형성되고 있는
+      질서에 던진다. 인류세(人類世, Anthropocene)는 행성질서를 사유 가능한
+      것으로 만들었고, 인공지능은 새로운 종류의 집합적 행위체를 실재하는 것으로
+      만들었다. 둘 중 어느 것도 국제정치학이 주권국가를 위해 벼려 온 개념들에
+      들어맞지 않는다. 최근의 작업은 그 둘에 맞는 개념을 마련하려는 시도다. 앞의
+      것에는 마음권의 공화국을, 뒤의 것에는 클론적 집합행위성(clonal collective
+      agency)의 정치이론을 제안한다.
+    - >-
+      경기대학교에 오기 전에는 빌켄트대학교(Bilkent University)에서 가르쳤고,
+      남캘리포니아대학교와 버그루엔연구소(Berggruen Institute)의 USC-버그루엔
+      펠로를 지냈으며, 서울대학교 국제문제연구소 선임연구원으로 일했다.
+      존스홉킨스대학교에서 동아시아 국제질서에서 국가의 덕(virtue of state)이
+      어떻게 진화해 왔는지를 다룬 논문으로 박사학위를 받았다.
+
+home:
+  research_title: 연구 개관
+  research_kicker: 다섯 영역과 네 개의 세미나
+  recent_title: 최근 논문
+  recent_kicker: 심사를 거친 학술지 논문
+  current_title: 책상 위의 일
+  current_kicker: 지금 손에 잡고 있는 것
+  contact_title: 연락
+  contact_kicker: 서신
+  contact_body: >-
+    이 사이트에 실린 작업, 그리고 세미나와 공동연구, 대학원 지도에 관한 연락을
+    환영한다.
+  stats:
+    - label: 가장 최근 논문
+      value: <em>The Chinese Journal of International Politics</em> 18-4 (2025)
+    - label: 진행 중인 논문
+      value: 여덟 편, 전국시대의 국가에서 균류 리바이어던까지
+    - label: 새로 연 영역
+      value: 인공지능의 국제정치
+
+ui:
+  skip: 본문으로 건너뛰기
+  main_nav: 주요 메뉴
+  cv_link: 이력서
+  research_areas: 연구 영역
+  seminars_convened: 주관하는 세미나
+  all_research: 연구 영역 전체 보기
+  all_publications: 게재 논문 전체 보기
+  all_wip: 진행 중인 연구 전체 보기
+  not_found: 존재하지 않는 페이지다

@@ -1,3 +1,12 @@
+{{- $d := index .Site.Data .Site.Language.Lang -}}
+{{- $s := $d.site -}}
 <footer>
-  <p>&copy; {{ now.Year }} {{ .Site.Params.author }}. All rights reserved.</p>
+  <div class="foot-nav">
+    <a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Home.Title }}</a>
+    {{- range .Site.RegularPages.ByWeight }}
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    {{- end }}
+  </div>
+  <div>{{ $s.footer_line }}</div>
+  <div class="foot-legal">&copy; {{ now.Year }} {{ $s.name }}{{ with $s.orcid }} · ORCID <a href="https://orcid.org/{{ . }}" rel="noopener">{{ . }}</a>{{ end }}</div>
 </footer>

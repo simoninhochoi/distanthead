@@ -1,0 +1,38 @@
+{{ define "hero" }}
+{{- $r := (index .Site.Data .Site.Language.Lang).research -}}
+<div class="hero page">
+  <h1>{{ $r.title }}</h1>
+  <p class="subtitle">{{ $r.kicker }}</p>
+  <p class="description">{{ $r.lede }}</p>
+</div>
+{{ end }}
+
+{{ define "main" }}
+{{- $d := index .Site.Data .Site.Language.Lang -}}
+{{- $r := $d.research -}}
+<section>
+  <div class="container">
+    {{- range $r.areas }}
+    <div class="module" id="{{ .id }}">
+      <div class="module-no">{{ .label }}</div>
+      <h3>{{ .heading }}</h3>
+      <div class="prose">
+        {{- range .body }}
+        <p>{{ . | safeHTML }}</p>
+        {{- end }}
+      </div>
+      {{- with .strands }}
+      <div style="margin-top:1.2rem;">
+        <div class="section-subtitle" style="margin:0 0 0.5rem;">{{ $r.strands_label }}</div>
+        <ul class="areas">
+          {{- range . }}
+          <li>{{ . | safeHTML }}</li>
+          {{- end }}
+        </ul>
+      </div>
+      {{- end }}
+    </div>
+    {{- end }}
+  </div>
+</section>
+{{ end }}

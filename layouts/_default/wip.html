@@ -1,0 +1,26 @@
+{{ define "hero" }}
+{{- $w := (index .Site.Data .Site.Language.Lang).wip -}}
+<div class="hero page">
+  <h1>{{ $w.title }}</h1>
+  <p class="subtitle">{{ $w.kicker }}</p>
+  <p class="description">{{ $w.lede }}</p>
+</div>
+{{ end }}
+
+{{ define "main" }}
+{{- $w := (index .Site.Data .Site.Language.Lang).wip -}}
+<section>
+  <div class="container narrow">
+    <p class="wip-note">{{ $w.note }}</p>
+    {{- range $w.entries }}
+    <div class="wip">
+      <div class="wip-head">
+        <h3>{{ .heading | safeHTML }}</h3>
+        <span class="status">{{ .status }}</span>
+      </div>
+      <p class="abstract">{{ .abstract | safeHTML }}</p>
+    </div>
+    {{- end }}
+  </div>
+</section>
+{{ end }}

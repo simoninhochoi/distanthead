@@ -1,0 +1,29 @@
+{{ define "hero" }}
+{{- $r := (index .Site.Data .Site.Language.Lang).resources -}}
+<div class="hero page">
+  <h1>{{ $r.title }}</h1>
+  <p class="subtitle">{{ $r.kicker }}</p>
+  <p class="description">{{ $r.lede }}</p>
+</div>
+{{ end }}
+
+{{ define "main" }}
+{{- $r := (index .Site.Data .Site.Language.Lang).resources -}}
+<section>
+  <div class="container">
+    {{- range $r.groups }}
+    <div class="res-group">
+      <h3>{{ .heading }}</h3>
+      <div class="res-grid">
+        {{- range .entries }}
+        <div class="res-card">
+          <div class="name"><a href="{{ .url }}" rel="noopener">{{ .name }}</a></div>
+          {{- with .desc }}<div class="desc">{{ . }}</div>{{ end }}
+        </div>
+        {{- end }}
+      </div>
+    </div>
+    {{- end }}
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,92 @@
+title: DistantHead
+title_sub: distant, thick, roundabout
+
+name: Inho Choi
+name_alt: 최인호 · 崔仁虎
+role: Assistant Professor
+institution: Kyonggi University
+affiliation: Assistant Professor,<br><span class="inst">Department of Political Science and Diplomacy, Kyonggi University</span>
+degree: Ph.D. in Political Science, Johns Hopkins University
+email: inho.choi86@gmail.com
+orcid: 0000-0003-2826-5775
+
+meta_description: >-
+  Inho Choi is an assistant professor in the Department of Political Science and
+  Diplomacy at Kyonggi University. He works on East Asian international orders,
+  the US–China rivalry, middle power strategy, planetary order, and the
+  international politics of artificial intelligence.
+
+footer_line: >-
+  Department of Political Science and Diplomacy, Kyonggi University
+
+hero:
+  tagline: >-
+    What is closest is reached at a distance, in thick description,
+    and by the longest way around.
+  description: >-
+    I study how the deep history of East Asia bears on the international orders
+    now taking shape — the rivalry between the United States and China, the
+    middle powers caught between them, the planetary order of the Anthropocene,
+    and the political forms that artificial intelligence is beginning to assume.
+
+about:
+  title: About
+  kicker: Who is writing
+  photo_alt: Inho Choi presenting at a conference
+  body:
+    - >-
+      I study how East Asia's deep history shapes contemporary security dynamics,
+      with a focus on US–China relations. My research shows that China's
+      strategic behavior draws on a complex repertoire of historical statecraft
+      traditions, from moral hegemony to pragmatic accommodation, that continue
+      to be selectively reconstructed today. I bring this historical depth to
+      bear on the questions that organize East Asian security. What drives
+      China's grand strategy? How should middle powers like Korea navigate the
+      US–China rivalry? And can competing civilizational worldviews coexist in a
+      stable international order?
+    - >-
+      A second line of work asks the same kind of question of the orders now
+      forming rather than of the ones that have passed. The Anthropocene has
+      made a planetary order thinkable, and artificial intelligence has made a
+      new kind of collective agent actual. Neither fits the concepts that
+      international relations built for sovereign states. My recent work tries
+      to supply concepts that do fit — a republic of the noosphere for the
+      first, and a political theory of clonal collective agency for the second.
+    - >-
+      Before Kyonggi I taught at Bilkent University, held a USC–Berggruen
+      Fellowship at the University of Southern California and the Berggruen
+      Institute, and was a senior research fellow at the Institute of
+      International Studies, Seoul National University. I wrote my dissertation
+      at Johns Hopkins University on the evolution of the virtue of state in
+      East Asian international orders.
+
+home:
+  research_title: Research at a glance
+  research_kicker: Five areas, four standing seminars
+  recent_title: Recent publications
+  recent_kicker: Peer-reviewed articles
+  current_title: On the desk
+  current_kicker: What is in hand right now
+  contact_title: Contact
+  contact_kicker: Correspondence
+  contact_body: >-
+    I welcome correspondence about the work on this site, and about seminars,
+    collaborations, and graduate supervision.
+  stats:
+    - label: Latest article
+      value: <em>The Chinese Journal of International Politics</em> 18(4), 2025
+    - label: Papers in progress
+      value: Eight, from Warring States statehood to a fungal Leviathan
+    - label: Newest area
+      value: International politics of AI
+
+ui:
+  skip: Skip to content
+  main_nav: Main navigation
+  cv_link: Curriculum vitae
+  research_areas: Research areas
+  seminars_convened: Seminars convened
+  all_research: All research areas
+  all_publications: All publications
+  all_wip: All works in progress
+  not_found: This page does not exist

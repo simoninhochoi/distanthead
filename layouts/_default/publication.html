@@ -1,0 +1,29 @@
+{{ define "hero" }}
+{{- $p := (index .Site.Data .Site.Language.Lang).publications -}}
+<div class="hero page">
+  <h1>{{ $p.title }}</h1>
+  <p class="subtitle">{{ $p.kicker }}</p>
+  <p class="description">{{ $p.lede }}</p>
+</div>
+{{ end }}
+
+{{ define "main" }}
+{{- $p := (index .Site.Data .Site.Language.Lang).publications -}}
+<section>
+  <div class="container">
+    {{- range $p.groups }}
+    <div class="res-group">
+      <h3>{{ .heading }}</h3>
+      <ul class="pub-list">
+        {{- $ids := .entries -}}
+        {{- range $p.entries }}
+        {{- if in $ids .id }}
+        {{- partial "pub.html" . }}
+        {{- end }}
+        {{- end }}
+      </ul>
+    </div>
+    {{- end }}
+  </div>
+</section>
+{{ end }}

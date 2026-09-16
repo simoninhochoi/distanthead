@@ -1,9 +1,27 @@
+{{ define "hero" }}
+{{- $d := index .Site.Data .Site.Language.Lang -}}
+{{- $c := $d.cv -}}
+<div class="hero page">
+  <h1>{{ $c.title }}</h1>
+  <p class="subtitle">{{ $c.kicker }}</p>
+  <p class="description">{{ $c.lede }}</p>
+</div>
+{{ end }}
+
 {{ define "main" }}
-<article class="content">
-  <h1>{{ .Title }}</h1>
-  <p class="cv-download"><a href="{{ "files/choi-cv.pdf" | relURL }}" target="_blank">Download PDF</a></p>
-  <div class="cv-embed">
-    <iframe src="{{ "files/choi-cv.pdf" | relURL }}" width="100%" height="800px" style="border: none;"></iframe>
+{{- $d := index .Site.Data .Site.Language.Lang -}}
+{{- $s := $d.site -}}
+{{- $c := $d.cv -}}
+<section>
+  <div class="container">
+    <div class="cv-actions">
+      <a class="badge badge-link" href="{{ "files/choi-cv.pdf" | relURL }}" target="_blank" rel="noopener">{{ $c.download }}</a>
+      <a class="badge badge-doi" href="https://orcid.org/{{ $s.orcid }}" rel="noopener">ORCID {{ $s.orcid }}</a>
+    </div>
+    <div class="cv-embed">
+      <iframe src="{{ "files/choi-cv.pdf" | relURL }}" title="{{ $c.title }}"></iframe>
+    </div>
+    <p class="note">{{ $c.fallback | safeHTML }}</p>
   </div>
-</article>
+</section>
 {{ end }}

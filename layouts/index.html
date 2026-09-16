@@ -1,5 +1,123 @@
+{{ define "hero" }}
+{{- $d := index .Site.Data .Site.Language.Lang -}}
+{{- $s := $d.site -}}
+<div class="hero">
+  <h1>{{ $s.title }}</h1>
+  <p class="subtitle">{{ $s.title_sub }}</p>
+  <p class="tagline">{{ $s.hero.tagline }}</p>
+  <p class="description">{{ $s.hero.description }}</p>
+</div>
+{{ end }}
+
 {{ define "main" }}
-<article class="content">
-  {{ .Content }}
-</article>
+{{- $d := index .Site.Data .Site.Language.Lang -}}
+{{- $s := $d.site -}}
+{{- $r := $d.research -}}
+{{- $p := $d.publications -}}
+{{- $w := $d.wip -}}
+{{- $sem := $d.seminars -}}
+{{- $cv := .Site.GetPage "cv" -}}
+{{- $research := .Site.GetPage "research" -}}
+{{- $pubs := .Site.GetPage "publication" -}}
+{{- $wip := .Site.GetPage "works-in-progress" -}}
+{{- $seminars := .Site.GetPage "seminars" -}}
+
+<section id="about">
+  <div class="container narrow">
+    <h2 class="section-title">{{ $s.about.title }}</h2>
+    <p class="section-subtitle">{{ $s.about.kicker }}</p>
+    <div class="profile">
+      <span class="profile-frame">
+        <img src="{{ "images/profile.jpeg" | relURL }}" alt="{{ $s.about.photo_alt }}" width="440" height="330">
+      </span>
+      <div class="profile-ident">
+        <div class="profile-name">{{ $s.name }}</div>
+        <div class="profile-name-alt">{{ $s.name_alt }}</div>
+        <div class="profile-role">{{ $s.affiliation | safeHTML }}</div>
+        <div class="profile-degree">{{ $s.degree }}</div>
+        <div class="profile-links">
+          <a href="{{ $cv.RelPermalink }}">{{ $s.ui.cv_link }}</a>
+          <a href="https://orcid.org/{{ $s.orcid }}" rel="noopener">ORCID</a>
+        </div>
+      </div>
+    </div>
+    <div class="prose">
+      {{- range $s.about.body }}
+      <p>{{ . | safeHTML }}</p>
+      {{- end }}
+    </div>
+  </div>
+</section>
+
+<section id="research" class="band">
+  <div class="container">
+    <h2 class="section-title">{{ $s.home.research_title }}</h2>
+    <p class="section-subtitle">{{ $s.home.research_kicker }}</p>
+    <div class="prose" style="max-width:46rem;"><p>{{ $r.lede }}</p></div>
+    <div class="stance-cols">
+      <div>
+        <div class="stance-kicker">{{ $s.ui.research_areas }}</div>
+        <ol class="stance-list">
+          {{- range $r.areas }}
+          <li>
+            <a href="{{ $research.RelPermalink }}#{{ .id }}">{{ .heading }}</a>
+            <span class="gloss">{{ .gloss }}</span>
+          </li>
+          {{- end }}
+        </ol>
+      </div>
+      <div>
+        <div class="stance-kicker">{{ $s.ui.seminars_convened }}</div>
+        <ol class="stance-list">
+          {{- range $sem.entries }}
+          <li>
+            <a href="{{ $seminars.RelPermalink }}">{{ .heading }}</a>
+            <span class="gloss">{{ .gloss }}</span>
+          </li>
+          {{- end }}
+        </ol>
+      </div>
+    </div>
+    <a class="more-link" href="{{ $research.RelPermalink }}">{{ $s.ui.all_research }}</a>
+  </div>
+</section>
+
+<section id="recent">
+  <div class="container">
+    <h2 class="section-title">{{ $s.home.recent_title }}</h2>
+    <p class="section-subtitle">{{ $s.home.recent_kicker }}</p>
+    <ul class="pub-list">
+      {{- range where $p.entries "featured" true }}
+      {{- partial "pub.html" . }}
+      {{- end }}
+    </ul>
+    <a class="more-link" href="{{ $pubs.RelPermalink }}">{{ $s.ui.all_publications }}</a>
+  </div>
+</section>
+
+<section id="current" class="band">
+  <div class="container">
+    <h2 class="section-title">{{ $s.home.current_title }}</h2>
+    <p class="section-subtitle">{{ $s.home.current_kicker }}</p>
+    <div class="highlight-grid">
+      {{- range $s.home.stats }}
+      <div class="stat">
+        <div class="label">{{ .label }}</div>
+        <div class="value">{{ .value | safeHTML }}</div>
+      </div>
+      {{- end }}
+    </div>
+    <a class="more-link" href="{{ $wip.RelPermalink }}">{{ $s.ui.all_wip }}</a>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container narrow">
+    <h2 class="section-title">{{ $s.home.contact_title }}</h2>
+    <p class="section-subtitle">{{ $s.home.contact_kicker }}</p>
+    <p class="contact-line">{{ $s.home.contact_body }}<br>
+      <span class="email-plain">{{ $s.email }}</span>
+    </p>
+  </div>
+</section>
 {{ end }}

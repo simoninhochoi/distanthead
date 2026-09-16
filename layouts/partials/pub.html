@@ -1,0 +1,15 @@
+{{- /* ctx: one publications.entries record */ -}}
+<li class="pub">
+  <div class="cite">
+    <span class="title">&ldquo;{{ .title | safeHTML }}&rdquo;</span>{{ with .coauthor }} <span class="coauthor">{{ . }}</span>{{ end }}
+    {{- with .original }}<span class="orig">{{ . }}</span>{{ end }}
+    <span class="where"><span class="venue">{{ .venue | safeHTML }}</span>{{ with .volume }} {{ . }}{{ end }} <span class="year">({{ .year }})</span></span>
+  </div>
+  {{- if or .doi .url .lang }}
+  <div class="pub-links">
+    {{- with .doi }}<a class="badge badge-doi" href="https://doi.org/{{ . }}" rel="noopener">DOI {{ . }}</a>{{ end }}
+    {{- with .url }}<a class="badge badge-link" href="{{ . }}" rel="noopener">{{ $.url_label }}</a>{{ end }}
+    {{- with .lang }}<span class="badge badge-lang">{{ . }}</span>{{ end }}
+  </div>
+  {{- end }}
+</li>

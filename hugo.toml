@@ -1,37 +1,28 @@
 baseURL = 'https://simoninhochoi.github.io/distanthead/'
-languageCode = 'en-us'
 title = 'DistantHead'
 
-[params]
-  subtitle = 'distant, thick, roundabout'
-  author = 'Inho Choi'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+disableKinds = ['taxonomy', 'term', 'RSS']
 
-[menu]
-  [[menu.main]]
-    name = 'About'
-    url = '/'
+# The page content lives in data/<lang>/*.yaml; content/*.md files are stubs
+# that give each page its title, weight (nav order) and layout. Editing the
+# YAML changes both languages' pages without touching a template.
+
+[languages]
+  [languages.en]
+    languageCode = 'en-US'
+    languageName = 'English'
     weight = 1
-  [[menu.main]]
-    name = 'C.V.'
-    url = '/cv/'
+  [languages.ko]
+    languageCode = 'ko-KR'
+    languageName = '한국어'
     weight = 2
-  [[menu.main]]
-    name = 'Research'
-    url = '/research/'
-    weight = 3
-  [[menu.main]]
-    name = 'Publication'
-    url = '/publication/'
-    weight = 4
-  [[menu.main]]
-    name = 'Works in Progress'
-    url = '/works-in-progress/'
-    weight = 5
-  [[menu.main]]
-    name = 'Seminars'
-    url = '/seminars/'
-    weight = 6
-  [[menu.main]]
-    name = 'Sources and Tools'
-    url = '/sources-and-tools/'
-    weight = 7
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[params]
+  author = 'Inho Choi'

@@ -1,0 +1,94 @@
+title: Sources and Tools
+kicker: Where the evidence comes from
+lede: >-
+  The archives, databases, and reference tools this research runs on, from the
+  Chosŏn and Qing documentary record to the declassified diplomatic files of the
+  twentieth century.
+
+groups:
+  - heading: Classical East Asian sources
+    entries:
+      - name: Korean Classics Database (한국고전종합DB)
+        url: https://db.itkc.or.kr/
+        desc: Collected works, veritable records, and travel diaries of the Chosŏn literati, with facing translations.
+      - name: Veritable Records of the Chosŏn Dynasty
+        url: https://sillok.history.go.kr/
+        desc: The full annals, 1392–1910, searchable in classical Chinese and Korean translation.
+      - name: Diaries of the Royal Secretariat (승정원일기)
+        url: https://sjw.history.go.kr/
+        desc: The daily record of the Chosŏn court, the densest single source on its foreign relations.
+      - name: Korean History Database
+        url: https://db.history.go.kr/
+        desc: The National Institute of Korean History's aggregate portal, including the modern-period collections.
+      - name: Kanseki Repository (漢籍リポジトリ)
+        url: https://www.kanripo.org/
+        desc: Textually stable editions of the Chinese classical corpus, with a versioned API.
+      - name: Chinese Text Project
+        url: https://ctext.org/
+        desc: Pre-modern Chinese texts with parallel editions and concordance search.
+      - name: Northeast Asia HistoryNet
+        url: http://contents.nahf.or.kr/
+        desc: Source compilations on the frontier and interpolity history of Northeast Asia.
+      - name: Digital Resources for Sinology in Taiwan
+        url: https://sinology.ascdc.sinica.edu.tw/index_en.html
+        desc: Academia Sinica's index to Taiwan's digital sinological collections.
+      - name: National Palace Museum Collection Search
+        url: https://theme.npm.edu.tw/opendata/index.aspx?lang=2
+        desc: Qing court objects and documents, with open data access.
+
+  - heading: Modern diplomatic archives
+    entries:
+      - name: Foreign Relations of the United States
+        url: https://history.state.gov/historicaldocuments
+        desc: The official documentary record of US foreign policy, 1861 onward, in full text.
+      - name: Wilson Center Digital Archive
+        url: https://digitalarchive.wilsoncenter.org/
+        desc: Translated Cold War documents from socialist-bloc archives, including the North Korea collections.
+      - name: National Security Archive
+        url: https://nsarchive.gwu.edu/
+        desc: Declassified US documents obtained under FOIA, curated into briefing books.
+
+  - heading: Scholarly blogs and websites
+    entries:
+      - name: Warp, Weft, and Way
+        url: http://warpweftandway.com/about/
+        desc: Chinese and comparative philosophy.
+      - name: Tang Center for Silk Road Studies, Berkeley
+        url: https://ieas.berkeley.edu/centers/tang-center-silk-road-studies-tcsrs/about-tcsrs
+        desc: Research and lectures on the Silk Road and Inner Asian connections.
+      - name: Reading the China Dream
+        url: https://www.readingthechinadream.com/about.html
+        desc: Translations of contemporary Chinese intellectual writing.
+
+  - heading: Maps
+    entries:
+      - name: Sinica Digital Atlas
+        url: https://digitalatlas.asdc.sinica.edu.tw/index.jsp
+        desc: Historical GIS for China and its neighbours.
+      - name: Qing Maps
+        url: https://qingmaps.org/
+        desc: Georeferenced Qing cartography.
+
+  - heading: Reference tools
+    entries:
+      - name: Citation Style for Chinese, Japanese and Korean Sources
+        url: https://guides.library.yale.edu/c.php?g=296262&p=1974227
+        desc: Yale's Chicago Manual examples for East Asian sources.
+      - name: Korean Transliteration
+        url: http://roman.cs.pusan.ac.kr/
+        desc: Romanization by both the Revised and the McCune–Reischauer systems.
+      - name: Chinese Pinyin Converter
+        url: https://www.purpleculture.net/chinese-pinyin-converter/
+        desc: Characters to pinyin, with tone marks.
+      - name: Imperial Chinese–Western Calendar Converter
+        url: https://sinocal.sinica.edu.tw/
+        desc: Reign-era dates to the Julian and Gregorian calendars.
+      - name: Lunar/Solar Calendar Converter
+        url: https://astro.kasi.re.kr/life/pageView/8
+        desc: The Korea Astronomy and Space Science Institute's converter.
+      - name: Dictionary of Ming Government Official Titles
+        url: https://escholarship.org/uc/item/2bz3v185
+        desc: Hucker's standard reference, open access.
+      - name: Asia for Educators
+        url: http://afe.easia.columbia.edu/
+        desc: Columbia's teaching materials and primary source readers on East Asia.

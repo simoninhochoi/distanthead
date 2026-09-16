@@ -1,0 +1,159 @@
+title: Research
+kicker: Five areas
+lede: >-
+  Five lines of work. Three of them read the US–China rivalry and Korea's place
+  in it through the deep history of East Asian statecraft. Two ask what becomes
+  of international order when its units are no longer only states.
+strands_label: Ongoing strands
+
+areas:
+  - id: grand-strategy
+    label: Area 01
+    heading: China's Complex Grand Strategy
+    gloss: Five modes of statecraft across millennia, selectively reconstructed by the PRC today.
+    body:
+      - >-
+        How do China's historical grand strategic traditions shape its current
+        behavior? Dominant accounts reduce Chinese strategy to a single
+        tradition, either Confucian moral hierarchy or realpolitik power
+        politics. I argue instead that Chinese grand strategy draws upon a
+        broader repertoire developed across millennia, comprising at least five
+        distinctive modes: ritual ordering, cherishing men from afar, loose-rein
+        governance, military punishment, and peaceful alignment. Each mode
+        corresponded to different power configurations, and together they form a
+        flexible heritage that continues to inform contemporary strategy.
+      - >-
+        The overlooked practice of peaceful alignment, whereby Chinese dynasties
+        maintained stable relations with stronger rivals, offers a striking lens
+        for analyzing how the PRC manages its relationship with the United
+        States. Drawing on a pragmatist approach that emphasizes the adaptive
+        reinterpretation of historical legacies rather than their simple
+        repetition, this project traces how China's complex strategic repertoire
+        is being selectively reconstructed in the era of US–China competition.
+    strands:
+      - "<em>China's Complex Grand Strategy Tradition: A Pragmatist Interpretation</em> — article in progress"
+      - Peaceful alignment as a recurring mode, from the Song–Liao settlement to the present
+      - Evidence drawn from the Qing statecraft compendia, the Ming and Qing veritable records, and the Chosŏn diplomatic archive
+
+  - id: ontological-encounter
+    label: Area 02
+    heading: US–China Rivalry as Ontological Encounter
+    gloss: Two powers as ontological others, and what mutual understanding would actually cost.
+    body:
+      - >-
+        The US–China rivalry is conventionally understood as a contest over
+        material power and institutional influence. This project pushes deeper,
+        arguing that the rivalry is also an encounter between two ontological
+        others, actors whose divergent lived realities are capable of
+        fundamentally challenging each other's self-understanding. I draw on the
+        ontological turn in anthropology and Paul Ricoeur's hermeneutics of
+        distanciation to show that meaningful mutual understanding between the
+        United States and China requires each side to concretely experience
+        itself as the enemy perceives it, a rival whose actions threaten not only
+        security but ontological integrity.
+      - >-
+        This realization would attenuate the self-righteous normative claims of
+        both contending powers and foster more prudent conduct. In related work,
+        I examine how the meaning of Chineseness itself has been a transcultural,
+        contested construction rather than a fixed national essence, with
+        implications for how we read China's civilizational claims in
+        international politics today.
+    strands:
+      - "<em>The Enemy of My Enemy is Myself: US–China Rivalry as the Encounter of Ontological Others</em> — article in progress"
+      - "&ldquo;On Being Chinese and Being Complexified&rdquo; — <em>Review of International Studies</em> 49(3), 2023"
+      - "&ldquo;International Relations of Encountering the Other&rdquo; — <em>Korean Journal of International Relations</em> 64(4), 2024"
+
+  - id: middle-power
+    label: Area 03
+    heading: Middle Power Strategy in the Age of US–China Competition
+    gloss: Planetary coevolution as a grand strategy for the rest, and sadae reread.
+    body:
+      - >-
+        As US–China rivalry intensifies and the political space for bilateral
+        cooperation narrows, allowing the two superpowers to manage their
+        relationship alone increasingly appears to be a formula for global
+        disorder. This project argues that a strategic framework for the rest,
+        especially for neighboring middle powers like South Korea, is both
+        necessary and possible. I propose planetary coevolution as a grand
+        strategy for middle powers, a long-term project aimed at gradually
+        steering both superpowers toward a non-hegemonic, federative security
+        architecture in which states preserve democratic autonomy while
+        committing to shared restraining mechanisms.
+      - >-
+        The project also draws on my research into the historical practices of
+        Korean statecraft, including the tradition of <em>sadae</em> (serving the
+        great), which I reinterpret not as passive submission but as a
+        sophisticated repertoire of strategic engagement with dominant powers,
+        to recover historical resources for contemporary middle-power diplomacy.
+    strands:
+      - "<em>US–China Strategy for the Rest: Toward Planetary Coevolution</em> — article in progress"
+      - "&ldquo;International Theory of Serving the Great&rdquo; — <em>Korean Journal of International Relations</em> 63(1), 2023"
+      - Order-sharing and collective hegemony as an alternative to hegemonic transition, with Inhwan Oh
+
+  - id: planetary-order
+    label: Area 04
+    heading: Planetary Order Beyond Great Power Competition
+    gloss: The noosphere and Neo-Confucian order theory as resources for a planetary republic.
+    body:
+      - >-
+        Great power competition is not the only, nor perhaps the most
+        consequential, challenge facing the international order. The Anthropocene,
+        the era in which humanity has become a geological force, demands a
+        planetary order that transcends the logic of sovereign competition. This
+        project investigates what such an order might look like by bringing
+        together two unlikely interlocutors, Pierre Teilhard de Chardin's theory
+        of the noosphere and Neo-Confucian political philosophy.
+      - >-
+        I propose the republic of the noosphere as a vision of planetary
+        governance in which individual agents expand their ethical and political
+        horizons to the planetary scale while preserving their autonomy, a
+        bottom-up republican order rather than a top-down integration. More
+        broadly, the project shows how East Asian intellectual traditions can
+        serve as living resources for addressing challenges that no single
+        civilization's thought can resolve alone.
+    strands:
+      - "&ldquo;Planetary Order for the Anthropocene: Republic of the Noosphere&rdquo; — <em>Korean Political Science Review</em> 58(4), 2024"
+      - Teilhard de Chardin's noosphere read through Neo-Confucian order theory
+      - "Recrafting political fiction in the Anthropocene: from Leviathan to the eight steps"
+
+  - id: ai
+    label: Area 05
+    heading: International Politics of AI
+    gloss: AI as a collective agent of a new kind, and the politics of the ontology layer.
+    body:
+      - >-
+        Artificial intelligence enters international politics mostly as a
+        capability, a matter of compute, chips, models, and the states that
+        command them. This project treats it also as a political form. A large
+        model is neither a tool nor an individual mind but a collective agent of
+        a new kind: like the state and the corporation it absorbs dispersed human
+        contributions and emerges as a unified actor, yet it is constituted
+        through extraction rather than representation, and those whose work
+        composes it never consented to membership.
+      - >-
+        However, the comparison with the state is right about the collectivity
+        and wrong about the kind of one that AI is. States and corporations are
+        individuated on a corporate template, with a bounded membership, a locus
+        of decision, a personality by fiction, and a death by dissolution. AI is
+        individuated on a clonal template. For that reason a fungus turns out to
+        be a better model for it than the Leviathan, and concepts built for
+        mortal gods misfire when the entity that becomes a superpower cannot die.
+      - >-
+        Three lines of work follow. The first relocates categorical power from
+        the model to the ontology layer, where the operational world that allies
+        and adversaries act within is defined, and which the literature on AI and
+        international politics has left almost entirely unexamined. The second
+        asks whether the noosphere — the planetary layer of knowledge and
+        reflection that AI now reorganizes — can be held as a commons by humans
+        and machines together rather than enclosed by a few firms and
+        governments, and what democracy and capitalism become if it can. The
+        third returns the political economy of compute, data work, and enclosure
+        to a debate that techno-optimism would rather conduct in the language of
+        abundance.
+    strands:
+      - <em>Generative AI and the Need for a New Political Theory of Collective Agency</em> — article in progress
+      - "<em>A Fungal Leviathan: Armillaria gallica and the Clonal Ontology of AI as a Collective Agent</em> — essay in progress"
+      - "The ontology layer: Palantir and the categorial politics of the security state — in preparation"
+      - "The noosphere as a planetary commons: human–AI coevolution, and what becomes of democracy and capitalism"
+      - "The international political economy of AI: compute, data work, and enclosure, against the language of abundance"
+      - US–China AI competition and the long-term order of the Korean Peninsula — a collaborative volume now being planned

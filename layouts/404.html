@@ -1,0 +1,15 @@
+{{ define "hero" }}
+{{- $s := (index .Site.Data .Site.Language.Lang).site -}}
+<div class="hero page">
+  <h1>404</h1>
+  <p class="subtitle">{{ $s.ui.not_found }}</p>
+</div>
+{{ end }}
+
+{{ define "main" }}
+<section>
+  <div class="container narrow">
+    <p class="contact-line"><a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Home.Title }} &rarr;</a></p>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,93 @@
+title: 자료와 도구
+kicker: 증거가 나오는 곳
+lede: >-
+  이 연구가 딛고 선 사료와 데이터베이스, 그리고 참고 도구다. 조선과 청의 문서
+  기록에서 20세기의 비밀해제 외교문서까지를 아우른다.
+
+groups:
+  - heading: 동아시아 고전 사료
+    entries:
+      - name: 한국고전종합DB
+        url: https://db.itkc.or.kr/
+        desc: 조선 문인의 문집과 실기, 연행록을 원문과 번역으로 함께 제공한다.
+      - name: 조선왕조실록
+        url: https://sillok.history.go.kr/
+        desc: 1392년부터 1910년까지의 실록 전문을 한문과 국역으로 검색할 수 있다.
+      - name: 승정원일기
+        url: https://sjw.history.go.kr/
+        desc: 조선 조정의 일별 기록이자 대외관계에 관한 가장 조밀한 단일 사료다.
+      - name: 한국사데이터베이스
+        url: https://db.history.go.kr/
+        desc: 국사편찬위원회의 통합 포털로 근대 자료 컬렉션까지 포함한다.
+      - name: 漢籍リポジトリ (Kanseki Repository)
+        url: https://www.kanripo.org/
+        desc: 판본이 안정된 한적 전산본을 버전 관리와 API로 제공한다.
+      - name: 中國哲學書電子化計劃 (Chinese Text Project)
+        url: https://ctext.org/
+        desc: 전근대 중국 문헌을 병렬 판본과 용례 색인으로 볼 수 있다.
+      - name: 동북아역사넷
+        url: http://contents.nahf.or.kr/
+        desc: 동북아시아의 변경과 정체 간 관계에 관한 사료 집성이다.
+      - name: 臺灣漢學數位資源 (Digital Resources for Sinology in Taiwan)
+        url: https://sinology.ascdc.sinica.edu.tw/index_en.html
+        desc: 중앙연구원이 정리한 대만 한학 디지털 자료 색인이다.
+      - name: 國立故宮博物院 藏品檢索
+        url: https://theme.npm.edu.tw/opendata/index.aspx?lang=2
+        desc: 청 궁정의 기물과 문서를 오픈데이터로 공개한다.
+
+  - heading: 근현대 외교 문서고
+    entries:
+      - name: Foreign Relations of the United States
+        url: https://history.state.gov/historicaldocuments
+        desc: 1861년 이래 미국 외교정책의 공식 문서 기록을 전문으로 제공한다.
+      - name: Wilson Center Digital Archive
+        url: https://digitalarchive.wilsoncenter.org/
+        desc: 사회주의권 문서고의 냉전 자료를 번역해 모았고 북한 컬렉션을 포함한다.
+      - name: National Security Archive
+        url: https://nsarchive.gwu.edu/
+        desc: 정보공개청구로 확보한 미국 비밀해제 문서를 주제별 브리핑북으로 엮었다.
+
+  - heading: 학술 블로그와 웹사이트
+    entries:
+      - name: Warp, Weft, and Way
+        url: http://warpweftandway.com/about/
+        desc: 중국철학과 비교철학.
+      - name: Tang Center for Silk Road Studies, Berkeley
+        url: https://ieas.berkeley.edu/centers/tang-center-silk-road-studies-tcsrs/about-tcsrs
+        desc: 실크로드와 내륙아시아 연결망에 관한 연구와 강연.
+      - name: Reading the China Dream
+        url: https://www.readingthechinadream.com/about.html
+        desc: 오늘날 중국 지식인의 글을 번역해 싣는다.
+
+  - heading: 지도
+    entries:
+      - name: 中央研究院 數位人文地理資訊
+        url: https://digitalatlas.asdc.sinica.edu.tw/index.jsp
+        desc: 중국과 주변 지역의 역사 지리정보 시스템.
+      - name: Qing Maps
+        url: https://qingmaps.org/
+        desc: 좌표가 부여된 청대 지도.
+
+  - heading: 참고 도구
+    entries:
+      - name: 한중일 자료 인용 양식 안내
+        url: https://guides.library.yale.edu/c.php?g=296262&p=1974227
+        desc: 예일대학교가 정리한 동아시아 자료의 시카고 양식 사례.
+      - name: 한국어 로마자 변환기
+        url: http://roman.cs.pusan.ac.kr/
+        desc: 국어의 로마자 표기법과 매큔·라이샤워 표기를 함께 지원한다.
+      - name: 중국어 병음 변환기
+        url: https://www.purpleculture.net/chinese-pinyin-converter/
+        desc: 한자를 성조 표시가 있는 병음으로 바꾼다.
+      - name: 兩千年中西曆轉換
+        url: https://sinocal.sinica.edu.tw/
+        desc: 연호 기년을 율리우스력과 그레고리력으로 환산한다.
+      - name: 음양력 변환
+        url: https://astro.kasi.re.kr/life/pageView/8
+        desc: 한국천문연구원의 음양력 변환 서비스.
+      - name: 명대 관직명 중영사전
+        url: https://escholarship.org/uc/item/2bz3v185
+        desc: 허커(Charles Hucker)의 표준 참고서를 오픈액세스로 제공한다.
+      - name: Asia for Educators
+        url: http://afe.easia.columbia.edu/
+        desc: 컬럼비아대학교의 동아시아 교육 자료와 1차 사료 선집.

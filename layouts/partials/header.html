@@ -1,7 +1,25 @@
+{{- $d := index .Site.Data .Site.Language.Lang -}}
+{{- $s := $d.site -}}
 <header>
-  <div class="site-header">
-    <a href="{{ "" | relURL }}" class="site-title">{{ .Site.Title }}</a>
-    <p class="site-subtitle">{{ .Site.Params.subtitle }}</p>
+  <div class="header-inner">
+    <div class="site-title">
+      <a href="{{ .Site.Home.RelPermalink }}">
+        <span class="mark">{{ $s.title }}</span>
+        <span class="mark-sub">{{ $s.title_sub }}</span>
+      </a>
+    </div>
+    <nav class="main" aria-label="{{ $s.ui.main_nav }}">
+      <a href="{{ .Site.Home.RelPermalink }}"{{ if .IsHome }} class="active" aria-current="page"{{ end }}>{{ .Site.Home.Title }}</a>
+      {{- range .Site.RegularPages.ByWeight }}
+      <a href="{{ .RelPermalink }}"{{ if eq $.RelPermalink .RelPermalink }} class="active" aria-current="page"{{ end }}>{{ .Title }}</a>
+      {{- end }}
+      {{- /* The switcher lands on the same page in the other language, never on
+             the home page, because .AllTranslations is this page's own set. */}}
+      <span class="lang">
+        {{- range .AllTranslations }}
+        <a href="{{ .RelPermalink }}"{{ if eq .Language.Lang $.Site.Language.Lang }} class="current" aria-current="true"{{ end }} lang="{{ .Language.Lang }}" hreflang="{{ .Language.Lang }}">{{ .Language.LanguageName }}</a>
+        {{- end }}
+      </span>
+    </nav>
   </div>
-  {{ partial "nav.html" . }}
 </header>

@@ -1,0 +1,67 @@
+title: 게재 논문
+kicker: 심사를 거친 학술지 논문
+lede: >-
+  영문 네 편과 국문 세 편이다. 동아시아 정체 간 질서, 문화횡단적 기획으로서의
+  중국 국제정치학, 타자와의 만남, 그리고 행성질서를 다룬다.
+
+groups:
+  - heading: 학술지 논문
+    entries: [cjip2025, ejir2025, kjir2024, kpsr2024, ris2023, kjir2023, irap2022]
+
+entries:
+  - id: cjip2025
+    featured: true
+    title: "Non-Western Interpolity Orders and Sociocultural Forces: the <em>shi</em> in the Early Modern East Asian Order"
+    venue: <em>The Chinese Journal of International Politics</em>
+    volume: "18-4: 496–519"
+    year: 2025
+    doi: 10.1093/cjip/poaf015
+
+  - id: ejir2025
+    featured: true
+    title: "Ontological Complexity of Interpolity Orders: The Encounter between Chosŏn and Tibet in Qing"
+    coauthor: 권민주 공저
+    venue: <em>European Journal of International Relations</em>
+    volume: "31-1: 28–52"
+    year: 2025
+    doi: 10.1177/13540661241228470
+
+  - id: kjir2024
+    featured: true
+    title: "객관, 주체, 그리고 타자의 국제정치학: 타자 만남의 목표, 이론, 방법"
+    original: "International Relations of Encountering the Other: Aim, Theory, and Methodology"
+    venue: 『국제정치논총』
+    volume: "64-4: 7–49"
+    year: 2024
+    doi: 10.14731/kjir.2024.12.64.4.7
+
+  - id: kpsr2024
+    title: "인류세와 행성질서: 마음권의 공화국"
+    original: "Planetary Order for the Anthropocene: Republic of the Noosphere"
+    venue: 『한국정치학회보』
+    volume: "58-4: 5–26"
+    year: 2024
+    doi: 10.18854/kpsr.2024.58.4.001
+
+  - id: ris2023
+    title: "On Being Chinese and Being Complexified: Chinese IR as a Transcultural Project"
+    venue: <em>Review of International Studies</em>
+    volume: "49-3: 471–490"
+    year: 2023
+    doi: 10.1017/S0260210522000481
+
+  - id: kjir2023
+    title: "사대의 국제정치이론: 일어난 미래로서 병자호란"
+    original: "International Theory of Serving the Great: 1636 Qing Invasion of Chosŏn as a Future-Passed"
+    venue: 『국제정치논총』
+    volume: "63-1: 43–86"
+    year: 2023
+    url: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11227135
+    url_label: DBpia
+
+  - id: irap2022
+    title: "&lsquo;Chinese&rsquo; Hegemony from a Korean <em>shi</em> Perspective: Aretocracy in the Early Modern East Asia"
+    venue: <em>International Relations of the Asia-Pacific</em>
+    volume: "22-3: 347–374"
+    year: 2022
+    doi: 10.1093/irap/lcaa019

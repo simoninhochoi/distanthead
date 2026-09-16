@@ -1,12 +1,13 @@
-{{ define "main" }}
-<article class="content">
+{{ define "hero" }}
+<div class="hero page">
   <h1>{{ .Title }}</h1>
-  {{ .Content }}
-  {{ range .Pages }}
-    <div class="post-entry">
-      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-      {{ .Summary }}
-    </div>
-  {{ end }}
-</article>
+</div>
+{{ end }}
+
+{{ define "main" }}
+<section>
+  <div class="container narrow">
+    <div class="prose">{{ .Content }}</div>
+  </div>
+</section>
 {{ end }}

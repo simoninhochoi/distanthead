@@ -1,0 +1,32 @@
+{{ define "hero" }}
+{{- $s := (index .Site.Data .Site.Language.Lang).seminars -}}
+<div class="hero page">
+  <h1>{{ $s.title }}</h1>
+  <p class="subtitle">{{ $s.kicker }}</p>
+  <p class="description">{{ $s.lede }}</p>
+</div>
+{{ end }}
+
+{{ define "main" }}
+{{- $s := (index .Site.Data .Site.Language.Lang).seminars -}}
+<section>
+  <div class="container">
+    <div class="orient-grid">
+      {{- range $s.entries }}
+      {{- $e := . }}
+      <div class="orient-card">
+        <div class="kicker">{{ .kicker }}</div>
+        <h3>{{ .heading }}</h3>
+        <p>{{ .body | safeHTML }}</p>
+        {{- range .tags }}
+        <span class="cadence">{{ . }}</span>
+        {{- end }}
+        {{- with .url }}
+        <div style="margin-top:0.7rem;"><a class="badge badge-link" href="{{ . }}" rel="noopener">{{ $e.url_label }}</a></div>
+        {{- end }}
+      </div>
+      {{- end }}
+    </div>
+  </div>
+</section>
+{{ end }}
