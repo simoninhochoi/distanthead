@@ -1,8 +1,8 @@
 title: Teaching
 kicker: Courses
 lede: >-
-  Three undergraduate courses at Kyonggi University this semester, and earlier
-  courses at Seoul National University.
+  Undergraduate courses: three at Kyonggi University this semester, and three
+  earlier at Seoul National University.
 
 sections:
   - heading: Kyonggi University
@@ -71,7 +71,7 @@ sections:
           middle-power strategy, the history of the relationship from the Korean
           War through détente to China's rise, and climate and AI. Students write
           two short US–China briefs and a national-strategy paper.
-        tags: [Earlier course]
+        tags: [Undergraduate, Earlier course]
 
       - heading: "Korean Diplomatic History: Experience and Evaluation"
         kicker: Fall 2025 · Adjunct lecturer
@@ -85,7 +85,7 @@ sections:
           build the judgment to analyze and assess Korea's international politics
           today. Each student chooses one event and reconstructs it in an essay or
           a work of fiction, or in a team's short film or play.
-        tags: [Earlier course]
+        tags: [Undergraduate, Earlier course]
 
       - heading: East Asian International Political Thought
         kicker: Spring 2025 · Adjunct lecturer
@@ -102,4 +102,4 @@ sections:
           punishment, and how neighboring states transformed them. It asks what an
           international politics built on East Asian thought, rather than on
           Europe's modernity, might look like.
-        tags: [Earlier course]
+        tags: [Undergraduate, Earlier course]
