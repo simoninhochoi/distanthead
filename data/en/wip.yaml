@@ -1,7 +1,7 @@
 title: Works in Progress
-kicker: Eight papers
+kicker: Seven papers
 lede: >-
-  Five on East Asian order and the powers that contest it, three on artificial
+  Five on East Asian order and the powers that contest it, two on artificial
   intelligence as a political form.
 note: Papers under review are not listed.
 
@@ -132,34 +132,6 @@ entries:
       Oppenheim's second edition (1912) cites the Korean case as the sole
       authority for a consular rule that its first edition (1905) did not
       contain.
-
-  - heading: Generative AI and the Need for a New Political Theory of Collective Agency
-    status: Article in progress
-    abstract: >-
-      Generative AI is developing largely under corporate interests and
-      authoritarian priorities, with a relative shortfall of broader political
-      deliberation. This reflects not merely greed or power consolidation but a
-      difficulty in how we understand the ontology of AI, which is still treated
-      either as an instrument or as a form of intelligence measured against human
-      embodied intelligence. Drawing on Halpin, Runciman, and Erskine, this paper
-      argues that AI should be understood as a new form of collective agent,
-      belonging to a small family of collective actors that includes the
-      nation-state and the corporation. It introduces mediated reflexivity, the
-      recognition that all collective agents, lacking the organic body of an
-      individual, acquire reflexivity only derivatively through processes that
-      aggregate the reflexivity of their human members. It then compares AI with
-      the state along three dimensions: the material and institutional
-      foundations of collective agency, the modes of collectivization through
-      which dispersed human inputs are organized into a unified agent, and the
-      fictionalization of collective entities as persons. The collectivization of
-      AI proceeds in three stages, a front-end of design and labelling, a middle
-      region of statistical absorption, and a tail-end of symbolic refinement,
-      each carrying a distinct political deficit, and their combination produces
-      a politics of extraction without representation. This politics is the
-      conjoint effect of AI's design and AI's ownership under the concentration
-      of AI in a handful of corporations. The paper closes by sketching a
-      commons-based alternative in which deliberation-mediated extraction becomes
-      possible by treating data and models as a global public good.
 
   - heading: "In Search of the Lost We: The Ontological Politics of Gathering AI"
     status: Book chapter in progress, in Korean
