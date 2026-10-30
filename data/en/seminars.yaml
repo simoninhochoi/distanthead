@@ -49,18 +49,24 @@ sections:
           peninsula from the fifth century to the nineteenth.
         tags: [Monthly, Historical]
 
-      - heading: AI and Future of the Earth
-        kicker: Reading group
-        gloss: What hybrid intelligence does to the state system and to planetary stewardship.
+      - heading: AI and Complex Intelligence
+        kicker: Monthly since 2025
+        gloss: How humans and AI might coexist on a shared planet, and what complex intelligence would take.
         body: >-
-          A philosophical and political inquiry into how the rise of artificial
-          intelligence is transforming the foundations of global order. As human
-          and machine cognition become increasingly entangled, this seminar
-          examines what the emergence of hybrid intelligence means for two
-          pillars of the modern world: the sovereign state system built on human
-          political agency, and the planetary order premised on humanity's unique
-          stewardship of the Earth.
-        tags: [Reading group, Contemporary]
+          An interdisciplinary research group, the Complex Intelligence Research
+          Group, founded in February 2025 to understand the civilizational
+          transformation AI brings and to explore its direction. Drawing on the
+          philosophy of technology, phenomenology, hermeneutics, theology, and
+          cognitive science, it asks whether human and artificial intelligence
+          each hold a domain irreducibly their own, from Erik Larson's critique
+          of AI and Yuk Hui's cosmotechnics to Simondon on technical objects and
+          Kissinger on world order in the age of AI, combining theoretical
+          inquiry with hands-on technological practice. The aim is to move past
+          rejecting or mythologizing AI and to explore a co-evolution of human
+          and artificial intelligence into a complex intelligence.
+        url: https://complex-intelligence.github.io/en.html
+        url_label: Group website
+        tags: [Monthly, Contemporary]
 
   - heading: Affiliations
     entries:
