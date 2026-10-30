@@ -56,6 +56,23 @@ sections:
 
   - heading: Seoul National University
     entries:
+      - heading: "East Asian International Politics: Rethinking US–China Relations"
+        kicker: Spring 2026 · Adjunct lecturer
+        gloss: US–China relations as a problem of planetary order, in which the rest can steer the superpowers.
+        body: >-
+          Takes up US–China relations beyond the frame of hegemonic rivalry, as a
+          problem of shaping order under planetary crisis. Its premise is that
+          middle and neighboring powers can constrain or redirect the superpowers'
+          strategic options through norms, institutions, discourse, and
+          coalitions, and it asks how the superpowers and the rest might set the
+          direction of planetary order together. The course reads world-system
+          evolution and republican security theory, the Anthropocene and AI, and
+          the strategic traditions of the United States and China, then turns to
+          middle-power strategy, the history of the relationship from the Korean
+          War through détente to China's rise, and climate and AI. Students write
+          two short US–China briefs and a national-strategy paper.
+        tags: [Earlier course]
+
       - heading: "Korean Diplomatic History: Experience and Evaluation"
         kicker: Fall 2025 · Adjunct lecturer
         gloss: Three dramatic events reconstructed as vividly and accurately as the sources allow.
@@ -71,17 +88,18 @@ sections:
         tags: [Earlier course]
 
       - heading: East Asian International Political Thought
-        kicker: Adjunct lecturer, 2025–2026
-        gloss: Department of Political Science and International Relations.
+        kicker: Spring 2025 · Adjunct lecturer
+        gloss: From the pre-Qin period to the future, and what an IR built on East Asian thought would look like.
         body: >-
-          Taught in the Department of Political Science and International
-          Relations.
-        tags: [Earlier course]
-
-      - heading: Rethinking U.S.–China Relations
-        kicker: Adjunct lecturer, 2025–2026
-        gloss: Department of Political Science and International Relations.
-        body: >-
-          Taught in the Department of Political Science and International
-          Relations.
+          Follows East Asian international political thought from the pre-Qin
+          period to the present together with the practice it grew from, centered
+          on the Sino-Korean relationship within the Chinese-centered order.
+          Because modern IR is itself the product of a time and a place, the first
+          two weeks set out the method: reading past thought in its own context
+          and, in a sense, living its world indirectly. The course studies the
+          five modes by which China governed its periphery, ritual ordering,
+          cherishing men from afar, loose rein, peaceful alignment, and military
+          punishment, and how neighboring states transformed them. It asks what an
+          international politics built on East Asian thought, rather than on
+          Europe's modernity, might look like.
         tags: [Earlier course]
