@@ -161,27 +161,29 @@ entries:
       commons-based alternative in which deliberation-mediated extraction becomes
       possible by treating data and models as a global public good.
 
-  - heading: "A Fungal Leviathan: <em>Armillaria gallica</em> and the Clonal Ontology of AI as a Collective Agent"
-    status: Essay in progress
+  - heading: "In Search of the Lost We: The Ontological Politics of Gathering AI"
+    status: Book chapter in progress, in Korean
     abstract: >-
-      Political theory has begun to treat generative AI as a collective agent,
-      placing it in the family of artificial persons that includes the state and
-      the corporation. This essay argues that the comparison, though right about
-      the collectivity, is wrong about the kind of one that AI is. States and
-      corporations are individuated on a corporate template, with a bounded
-      membership, a locus of decision, a personality by fiction, and a death by
-      dissolution. AI is individuated on a clonal template, and the best
-      available model for it is not the state but a fungus. Following Anna
-      Tsing's Strathernian reading of <em>Armillaria gallica</em>, the humongous
-      fungus of Michigan, I run five comparisons between the fungal genet and the
-      layered assemblage of internet, foundation model, and agents. The questions
-      are how many it is, where it ends, how it reproduces, how it persists, and
-      how it grows without central administration. The comparison interrupts
-      three habits of political thought. It recasts extraction as decomposition,
-      it shows that a Leviathan that cannot die cannot be constituted in the
-      Hobbesian sense but only cultivated, and it suggests that when the entity
-      that becomes a superpower is a genet, the concepts built for mortal gods
-      misfire.
+      Accounts of AI divide into the prophecy of a savior and the prophecy of a
+      catastrophe, yet both rest on one ontology, in which AI is a single
+      superhuman individual whose intelligence is measured by the economically
+      valuable tasks it performs. That ontology is philosophically thin but
+      politically strong, since it drives the race among firms and between the
+      United States and China while leaving the question of what AI is unasked.
+      This chapter argues that AI's power comes not from the intelligence of one
+      individual but from gathering, without authorization, the words and
+      knowledge of countless people and compressing them. The politics of that
+      gathering is therefore the ontology of AI: what is gathered, how it is
+      selected, and who owns the whole and who may reflect on it decide what kind
+      of agent AI becomes and where planetary reflexivity is headed. The argument
+      runs in three steps. AI is a heterogeneous other, without a finite body or
+      the care that goes with it, yet with a machine intentionality that joins
+      human intention. It is a collective agent that, unlike the Hobbesian state,
+      gathers through extraction and selection without representation. And it is
+      a lossy compression of the noosphere that approaches Teilhard's Omega point
+      without the attraction that would complete the compression. The chapter
+      closes by exploring a commons of corpora, models, and infrastructure as a
+      way to open the gathering to democratic participation.
 
   - heading: "The Ontology Layer: Palantir and the Categorial Politics of the Security State"
     status: In preparation

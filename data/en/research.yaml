@@ -123,25 +123,32 @@ areas:
   - id: ai
     label: Area 05
     heading: International Politics of AI
-    gloss: AI as a collective agent of a new kind, and the politics of the ontology layer.
+    gloss: AI as a gathering of human words and knowledge, and the politics of the ontology layer.
     body:
       - >-
         Artificial intelligence enters international politics mostly as a
         capability, a matter of compute, chips, models, and the states that
-        command them. This project treats it also as a political form. A large
-        model is neither a tool nor an individual mind but a collective agent of
-        a new kind: like the state and the corporation it absorbs dispersed human
-        contributions and emerges as a unified actor, yet it is constituted
-        through extraction rather than representation, and those whose work
-        composes it never consented to membership.
+        command them. This project asks what AI is, a question the race to build
+        it has never put. The prophecy of salvation and the prophecy of
+        extinction both take AI to be a single superhuman individual whose
+        intelligence is measured by the tasks it performs. Thin as its philosophy
+        is, that ontology of the individual and the task drives the rivalry among
+        firms and between the United States and China. I diagnose it as an
+        ontological politics without ontology.
       - >-
-        However, the comparison with the state is right about the collectivity
-        and wrong about the kind of one that AI is. States and corporations are
-        individuated on a corporate template, with a bounded membership, a locus
-        of decision, a personality by fiction, and a death by dissolution. AI is
-        individuated on a clonal template. For that reason a fungus turns out to
-        be a better model for it than the Leviathan, and concepts built for
-        mortal gods misfire when the entity that becomes a superpower cannot die.
+        I argue instead that AI's power comes not from the intelligence of one
+        individual but from gathering, without authorization, the words and
+        knowledge of countless people and compressing them. What is gathered, how
+        it is selected, and who owns the whole and who may reflect on it decide
+        what kind of agent AI becomes, so that the politics of gathering is the
+        ontology of AI. Read this way, AI is a heterogeneous other, which lacks a
+        finite body and the care that goes with it yet has an intentionality of
+        its own; a collective agent that, unlike the state, gathers through
+        extraction and selection without representation; and a compression of
+        the noosphere in Teilhard's sense, whose direction is not yet settled.
+        That the word &ldquo;artificial&rdquo; is being struck from AI's name
+        erases the &ldquo;we&rdquo; who were gathered into it, the lost we this
+        work tries to find.
       - >-
         Three lines of work follow. The first relocates categorical power from
         the model to the ontology layer, where the operational world that allies
@@ -156,7 +163,7 @@ areas:
         abundance.
     strands:
       - <em>Generative AI and the Need for a New Political Theory of Collective Agency</em> — article in progress
-      - "<em>A Fungal Leviathan: Armillaria gallica and the Clonal Ontology of AI as a Collective Agent</em> — essay in progress"
+      - "<em>In Search of the Lost We: The Ontological Politics of Gathering AI</em> — book chapter in progress, in Korean, for a volume on AI norms at the Institute of International Studies, Seoul National University"
       - "The ontology layer: Palantir and the categorial politics of the security state — in preparation"
       - "The noosphere as a planetary commons: human–AI coevolution, and what becomes of democracy and capitalism"
       - "The international political economy of AI: compute, data work, and enclosure, against the language of abundance"
