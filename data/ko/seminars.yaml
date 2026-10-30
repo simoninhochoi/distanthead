@@ -42,6 +42,8 @@ sections:
         gloss: 5세기부터 19세기까지 한반도의 지구적 외교사.
         body: >-
           5세기부터 19세기까지 한반도의 지구적 외교사를 읽는 월례 연구모임이다.
+        url: https://korean-diplomatic-history.github.io/
+        url_label: 모임 홈페이지
         tags: [월례, 역사]
 
       - heading: 인공지능과 복합지능

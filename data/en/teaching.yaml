@@ -1,0 +1,73 @@
+title: Teaching
+kicker: Courses
+lede: >-
+  Three undergraduate courses at Kyonggi University this semester, and earlier
+  courses at Seoul National University.
+
+sections:
+  - heading: Kyonggi University
+    entries:
+      - heading: International Relations
+        kicker: Fall 2026 · Fridays
+        gloss: An introduction that starts from the problems students face now.
+        body: >-
+          An introduction to international politics for students who meet it for
+          the first time, starting from urgent problems rather than a catalogue
+          of concepts: US–China rivalry and the Korean Peninsula, war and peace,
+          climate, and artificial intelligence. The first two hours follow the
+          historical and theoretical transformations that Korea, East Asia, and
+          the world have passed through since the modern era. The last hour is a
+          practicum in using AI as a research tool, to collect, verify, and
+          analyze sources. It leads to two reports, one a practical assessment
+          of a current issue and one a scholarly forecast.
+        tags: [Undergraduate, Introductory]
+
+      - heading: "Globalization and International Relations: Globalization over 13.8 Billion Years"
+        kicker: Fall 2026 · Thursdays
+        gloss: Globalization read across cosmic, planetary, and human time.
+        body: >-
+          Reads globalization over 13.8 billion years rather than since
+          industrialization, through six overlapping processes: of matter and
+          energy, of the living Earth, of mind and technology, of global
+          political organization, of sovereign states, and of flows of capital and
+          culture. The course descends from the cosmic scale to the human and
+          returns in its last week to the question of the first. It joins the
+          natural-science narrative of big history and Earth system science to
+          the social-science narrative of international politics and political
+          economy.
+        tags: [Undergraduate, General education]
+
+      - heading: "Regional Politics Seminar: The Unfolding of the East Asian International Order"
+        kicker: Fall 2026 · Tuesdays
+        gloss: East Asian order from the Ming–Qing empires to AI and the climate crisis.
+        body: >-
+          Follows the East Asian international order from the Ming and Qing
+          empires to the present, not as a survey but through the junctures that
+          decide how today's order is read. Before the nineteenth century it
+          takes up the Ming, where ritual governance matured into institutions,
+          and the Qing, which laid inner Asia over China in a composite order.
+          After it, the course runs from the treaty-port encounter of
+          <em>tianxia</em> and the international through the Cold War, the rise of
+          China, and US–China rivalry to the order that artificial intelligence
+          and the climate crisis are reshaping. The first two weeks set out the
+          method, and lectures are paired with student presentations and
+          discussion.
+        tags: [Undergraduate, Advanced]
+
+  - heading: Seoul National University
+    entries:
+      - heading: East Asian International Political Thought
+        kicker: Adjunct lecturer, 2025–2026
+        gloss: Department of Political Science and International Relations.
+        body: >-
+          Taught in the Department of Political Science and International
+          Relations.
+        tags: [Earlier course]
+
+      - heading: Rethinking U.S.–China Relations
+        kicker: Adjunct lecturer, 2025–2026
+        gloss: Department of Political Science and International Relations.
+        body: >-
+          Taught in the Department of Political Science and International
+          Relations.
+        tags: [Earlier course]

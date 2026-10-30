@@ -53,7 +53,7 @@ about:
 
 home:
   research_title: 연구 개관
-  research_kicker: 다섯 영역과 네 개의 세미나
+  research_kicker: 다섯 영역과 다섯 개의 세미나
   recent_title: 최근 논문
   recent_kicker: 심사를 거친 학술지 논문
   current_title: 책상 위의 일
@@ -65,9 +65,9 @@ home:
     환영한다.
   stats:
     - label: 가장 최근 논문
-      value: <em>The Chinese Journal of International Politics</em> 18-4 (2025)
+      value: <em>International Relations of the Asia-Pacific</em> 26-3 (2026)
     - label: 진행 중인 논문
-      value: 전국시대 중국에서 균류 리바이어던까지
+      value: 중국의 복합 대전략에서 균류 리바이어던까지
     - label: 새로 연 영역
       value: 인공지능의 국제정치
 

@@ -1,7 +1,7 @@
 # DistantHead
 
 Personal academic site of **Inho Choi** (최인호), Assistant Professor in the
-Department of Political Science and Diplomacy, Kyonggi University.
+Department of Political Science and International Relations, Kyonggi University.
 
 Published at <https://simoninhochoi.github.io/distanthead/> · 한국어판 `/ko/`
 

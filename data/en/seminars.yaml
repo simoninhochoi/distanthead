@@ -47,6 +47,8 @@ sections:
         body: >-
           A monthly seminar group on the global diplomatic history of the Korean
           peninsula from the fifth century to the nineteenth.
+        url: https://korean-diplomatic-history.github.io/
+        url_label: Group website
         tags: [Monthly, Historical]
 
       - heading: AI and Complex Intelligence

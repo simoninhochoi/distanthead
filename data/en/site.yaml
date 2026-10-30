@@ -5,19 +5,19 @@ name: Inho Choi
 name_alt: 최인호 · 崔仁虎
 role: Assistant Professor
 institution: Kyonggi University
-affiliation: Assistant Professor,<br><span class="inst">Department of Political Science and Diplomacy, Kyonggi University</span>
+affiliation: Assistant Professor,<br><span class="inst">Department of Political Science and International Relations, Kyonggi University</span>
 degree: Ph.D. in Political Science, Johns Hopkins University
 email: inho.choi86@gmail.com
 orcid: 0000-0003-2826-5775
 
 meta_description: >-
   Inho Choi is an assistant professor in the Department of Political Science and
-  Diplomacy at Kyonggi University. He works on East Asian international orders,
+  International Relations at Kyonggi University. He works on East Asian international orders,
   the US–China rivalry, middle power strategy, planetary order, and the
   international politics of artificial intelligence.
 
 footer_line: >-
-  Department of Political Science and Diplomacy, Kyonggi University
+  Department of Political Science and International Relations, Kyonggi University
 
 hero:
   tagline: >-
@@ -60,7 +60,7 @@ about:
 
 home:
   research_title: Research at a glance
-  research_kicker: Five areas, four standing seminars
+  research_kicker: Five areas, five seminars
   recent_title: Recent publications
   recent_kicker: Peer-reviewed articles
   current_title: On the desk
@@ -72,9 +72,9 @@ home:
     collaborations, and graduate supervision.
   stats:
     - label: Latest article
-      value: <em>The Chinese Journal of International Politics</em> 18(4), 2025
+      value: <em>International Relations of the Asia-Pacific</em> 26(3), 2026
     - label: Papers in progress
-      value: From Warring States China to a fungal Leviathan
+      value: From Chinese grand strategy to a fungal Leviathan
     - label: Newest area
       value: International politics of AI
 

@@ -1,14 +1,33 @@
 title: Publications
 kicker: Peer-reviewed articles
 lede: >-
-  Seven articles in English and Korean, on East Asian interpolity orders,
-  Chinese IR as a transcultural project, and planetary order.
+  Nine articles in English and Korean, one of them forthcoming, and a book
+  chapter, on East Asian interpolity orders, the state beyond Europe, Chinese IR
+  as a transcultural project, climate and power transition, and planetary order.
 
 groups:
   - heading: Journal articles
-    entries: [cjip2025, ejir2025, kjir2024, kpsr2024, ris2023, kjir2023, irap2022]
+    entries: [ris2026, irap2026, cjip2025, ejir2025, kjir2024, kpsr2024, ris2023, kjir2023, irap2022]
+  - heading: Book chapters
+    entries: [hawaii2026]
 
 entries:
+  - id: ris2026
+    featured: true
+    title: "Invention of the Impersonal State in Early China: A Conceptual Genealogy beyond Europe"
+    venue: <em>Review of International Studies</em>
+    volume: forthcoming
+    year: 2026
+
+  - id: irap2026
+    featured: true
+    title: "Historical Intersections of Climatic Change and Power Transitions: Ecological Pressure, Differential Adaptability, and the US–China Power Transition in the Anthropocene"
+    coauthor: with Inhwan Oh
+    venue: <em>International Relations of the Asia-Pacific</em>
+    volume: "26(3): lcag009"
+    year: 2026
+    doi: 10.1093/irap/lcag009
+
   - id: cjip2025
     featured: true
     title: "Non-Western Interpolity Orders and Sociocultural Forces: the <em>shi</em> in the Early Modern East Asian Order"
@@ -18,7 +37,6 @@ entries:
     doi: 10.1093/cjip/poaf015
 
   - id: ejir2025
-    featured: true
     title: "Ontological Complexity of Interpolity Orders: The Encounter between Chosŏn and Tibet in Qing"
     coauthor: with Minju Kwon
     venue: <em>European Journal of International Relations</em>
@@ -27,7 +45,6 @@ entries:
     doi: 10.1177/13540661241228470
 
   - id: kjir2024
-    featured: true
     title: "International Relations of Encountering the Other: Aim, Theory, and Methodology"
     original: "「객관, 주체, 그리고 타자의 국제정치학: 타자 만남의 목표, 이론, 방법」"
     venue: <em>Korean Journal of International Relations</em>
@@ -68,3 +85,8 @@ entries:
     volume: "22(3): 347–374"
     year: 2022
     doi: 10.1093/irap/lcaa019
+
+  - id: hawaii2026
+    title: "Neo-Confucianism as Cosmopolitan Democracy"
+    venue: "in Roger T. Ames and Jae Young Lee, eds., <em>Beyond the Nation-State: From Geopolitical Discourse to Civilizational Dialogues</em> (University of Hawaii Press)"
+    year: 2026

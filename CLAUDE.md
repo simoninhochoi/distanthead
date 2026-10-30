@@ -30,6 +30,7 @@ static/files/         ← choi-cv.pdf
 | `publications.yaml` | 게재 논문. `groups[].entries` 가 `entries[].id` 를 순서대로 참조 |
 | `wip.yaml` | 진행 중인 논문과 초록 |
 | `seminars.yaml` | 세미나와 소속. `sections[].entries[]` 두 겹이다 |
+| `teaching.yaml` | 강의. 구조는 `seminars.yaml` 과 같다(`sections[].entries[]`). 레이아웃 `teaching.html` |
 | `resources.yaml` | 자료와 도구 링크 |
 | `cv.yaml` | 이력서 페이지 문구 |
 
@@ -117,7 +118,7 @@ python -m http.server 8099 --directory /tmp/preview
 ## 표기
 
 - 국문 소속은 **「경기대학교 정치외교학전공」**(「정치외교학과」 아님),
-  영문은 "Department of Political Science and Diplomacy, Kyonggi University".
+  영문은 "Department of Political Science and International Relations, Kyonggi University".
 - 서지(저자·제목·게재지)는 **원어 그대로** 둔다. 국문 논문은 국문 제목이 정본이고
   영문판에서는 영문 번역 제목을 쓰되 국문 원제를 함께 보인다(`original` 필드).
 - 국문 본문은 **한다체**(학술 문체)다. 슬라이드나 정책 글의 문체를 섞지 않는다.
