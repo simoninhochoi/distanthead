@@ -1,7 +1,7 @@
 title: Publications
 kicker: Peer-reviewed articles
 lede: >-
-  Nine articles in English and Korean, one of them forthcoming, and a book
+  Nine articles in English and Korean and a book
   chapter, on East Asian interpolity orders, the state beyond Europe, Chinese IR
   as a transcultural project, climate and power transition, and planetary order.
 
@@ -16,7 +16,8 @@ entries:
     featured: true
     title: "Invention of the Impersonal State in Early China: A Conceptual Genealogy beyond Europe"
     venue: <em>Review of International Studies</em>
-    volume: forthcoming
+    volume: online first
+    doi: 10.1017/S0260210526102459
     year: 2026
 
   - id: irap2026
